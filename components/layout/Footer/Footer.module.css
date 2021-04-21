@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+}
+
+.footer h1 {
+  color: var(--white);
+}

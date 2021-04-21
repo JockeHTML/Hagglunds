@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+  margin-left: 7rem;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 3rem;
+}

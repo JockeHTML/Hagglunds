@@ -4,13 +4,94 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--white);
+  overflow-x: hidden!;
 }
 
 a {
-  color: inherit;
+  color: var(--blue);
   text-decoration: none;
+  text-transform: none;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--size4);
 }
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --padding2: 2rem;
+  --padding4: 4rem;
+  --padding8: 5rem;
+  --size1: 0.25rem;
+  --size2: 0.5rem;
+  --size3: 0.75rem;
+  --size4: 1rem;
+  --size5: 1.25rem;
+  --size6: 1.5rem;
+  --size8: 2rem;
+  --size10: 2.5rem;
+  --size12: 3rem;
+  --size16: 3.5rem;
+  --size18: 4rem;
+  --size20: 5rem;
+  --size30: 7rem;
+  --size40: 10rem;
+
+  --grey: #343a40;
+  --black: #000814;
+  --lightgrey: #e5e7eb;
+  --red: #9e042f;
+  --green: #57bd5e;
+  --blue: #223543;
+  --bg: #f6f6f8;
+  --lightgrey: #f8f9fa;
+  --lightblue: #3a505f;
+  --white: #fff;
+}
+
+p {
+  margin: 0;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--lightblue);
+}
+
+h1 {
+  margin: 0 0 var(--padding4) 0;
+  padding: 0;
+  font-size: var(--size16);
+  color: var(--blue);
+  line-height: 1;
+}
+
+h2 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  color: var(--blue);
+  font-size: var(--size10);
+  line-height: 2rem;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  color: var(--blue);
+  font-size: var(--size6);
+  line-height: 1.75rem;
+}
+
+h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: var(--blue);
+  font-size: var(--size5);
+  line-height: 1.75rem;
 }

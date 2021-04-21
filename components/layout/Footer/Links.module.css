@@ -1,0 +1,23 @@
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.links a {
+  color: white;
+}
+
+.links p {
+  font-weight: 400;
+}
+
+.links span {
+  display: flex;
+  align-items: center;
+}
+
+.links i {
+  color: var(--green);
+  margin-right: 10px;
+}

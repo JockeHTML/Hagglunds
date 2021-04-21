@@ -1,0 +1,32 @@
+.card {
+  width: 300px;
+  margin: 0 1rem;
+}
+
+.card h4 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.buttons a {
+  color: var(--green);
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: auto;
+}
+
+.image img {
+  border-radius: 2px;
+  height: 170px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

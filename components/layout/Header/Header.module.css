@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  padding: 1rem;
+  border-bottom: 1px solid var(--lightgrey);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+.nav ul {
+  align-items: center;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.nav i {
+  color: var(--green);
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.nav span {
+  display: flex;
+  align-items: center;
+}

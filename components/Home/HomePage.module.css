@@ -1,0 +1,13 @@
+.homePage {
+  background-image: url("../../public/images/bg.jpg");
+  width: 100%;
+  height: 70vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}

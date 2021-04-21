@@ -1,0 +1,21 @@
+.text {
+  width: 350px;
+  margin-right: 2rem;
+}
+
+.text h2 {
+  line-height: 1;
+  width: 90%;
+}
+
+.text p {
+  width: 100%;
+}
+
+.buttons p {
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 2rem;
+}

@@ -1,0 +1,7 @@
+.title h1 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+.title p {
+  color: var(--white);
+}

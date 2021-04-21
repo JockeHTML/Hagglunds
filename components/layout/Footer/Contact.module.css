@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  padding: 2.5rem 0;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact > div {
+  flex-basis: 350px;
+}
+
+.contact h3 {
+  color: white;
+}
+
+.contact p {
+  color: white;
+}

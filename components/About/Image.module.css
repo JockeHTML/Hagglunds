@@ -1,0 +1,13 @@
+.image img {
+  width: 50%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 550px;
+}

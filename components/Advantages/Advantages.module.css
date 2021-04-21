@@ -1,0 +1,15 @@
+.advantages {
+  padding: var(--padding8) 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+}
+
+.advantages h1 {
+  text-align: center;
+}
