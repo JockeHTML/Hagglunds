@@ -4,7 +4,11 @@ import classes from "./Image.module.css";
 const Image = () => {
   return (
     <div className={classes.image}>
-      <img src="../images/bg2.jpg" alt="Om oss" />
+      <div className={classes.content}>
+        {" "}
+        <img src="../images/bg4.jpg" alt="Om oss" />
+        <img src="../images/bg3.jpg" alt="Om oss" />
+      </div>
     </div>
   );
 };

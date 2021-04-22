@@ -9,9 +9,9 @@ const ContactSlider = () => {
         {contactData.map((contact, index) => {
           const { title, text, icon } = contact;
           return (
-            <div className={classes.contact}>
+            <div key={index} className={classes.contact}>
               <span>
-                <i class={icon}></i>
+                <i className={icon}></i>
               </span>
 
               <span>

@@ -1,9 +1,10 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
+import classes from "./Button.module.css";
 
 const GreenButton = (props) => {
   return (
-    <div>
+    <div className={classes.button}>
       <Button
         variant="contained"
         style={{
@@ -14,7 +15,6 @@ const GreenButton = (props) => {
           padding: "10px 2.5rem",
           textTransform: "none",
         }}
-        href="#contained-buttons"
       >
         <p style={{ color: "white" }}>{props.children}</p>
       </Button>

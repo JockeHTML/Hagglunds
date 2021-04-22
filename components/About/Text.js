@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Text.module.css";
-import WhiteButton from "../ui/WhiteButton";
+import BlueButton from "../ui/BlueButton";
 import GreenButton from "../ui/GreenButton";
 
 const Text = () => {
@@ -24,8 +24,8 @@ const Text = () => {
         </p>
       </div>
       <div className={classes.buttons}>
-        <GreenButton>Boka nu</GreenButton>
-        <WhiteButton>Läs mer</WhiteButton>
+        <GreenButton>Kontakt</GreenButton>
+        <BlueButton>Läs mer</BlueButton>
       </div>
     </div>
   );

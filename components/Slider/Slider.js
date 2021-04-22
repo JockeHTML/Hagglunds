@@ -7,9 +7,8 @@ const Slider = () => {
     <div className={classes.slider}>
       <div className={classes.content}>
         <h3>
-          Kiropraktorerna som arbetar hos{" "}
-          <span style={{ color: "var(--green)" }}>Hägglunds </span>är alla
-          legitimerade av Socialstyrelsen
+          Kiropraktorerna som arbetar hos Hägglunds är alla legitimerade av
+          Socialstyrelsen
         </h3>
         <div className={classes.buttons}>
           <WhiteButton>Läs mer</WhiteButton>

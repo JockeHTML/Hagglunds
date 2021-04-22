@@ -10,10 +10,10 @@ const Links = () => {
         {linksData.map((data, index) => {
           const { title, link } = data;
           return (
-            <li>
+            <li key={index}>
               <a href="">
                 <span>
-                  <i class="fas fa-angle-right"></i>
+                  <i className="fas fa-angle-right"></i>
                   <p>{title}</p>
                 </span>
               </a>
