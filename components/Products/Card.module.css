@@ -13,6 +13,10 @@
   margin-bottom: 10px;
 }
 
+.card i {
+  margin-top: 5px;
+}
+
 .buttons a {
   color: var(--green);
   display: flex;

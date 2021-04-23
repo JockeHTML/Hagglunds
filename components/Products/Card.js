@@ -3,7 +3,6 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { productsData } from "../../data";
 import classes from "./Card.module.css";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 
 export default function Card() {
   return (
@@ -24,10 +23,7 @@ export default function Card() {
               <div className={classes.buttons}>
                 <a href="">
                   Läs mer
-                  <NavigateNextIcon
-                    fontSize="small"
-                    style={{ marginTop: "5px" }}
-                  />
+                  <i className="fas fa-angle-right"></i>
                 </a>
               </div>
             </Paper>
