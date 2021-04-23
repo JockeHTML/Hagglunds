@@ -9,7 +9,7 @@ const Products = () => {
     <div className={classes.products}>
       <div className={classes.title}>
         <h1>
-          Vi <span style={{ color: "var(--green)" }}>hjälper</span> dig med
+          Våra <span style={{ color: "var(--green)" }}>tjänster</span>
         </h1>
         <p>
           {" "}
