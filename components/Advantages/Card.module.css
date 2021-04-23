@@ -13,6 +13,10 @@
   font-size: 1rem;
 }
 
+.card i {
+  margin-top: 5px;
+}
+
 .buttons a {
   color: var(--green);
   display: flex;

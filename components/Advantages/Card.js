@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Card.module.css";
 import Link from "next/link";
-import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 
 const Card = ({ title, text, img }) => {
   return (
@@ -15,7 +14,7 @@ const Card = ({ title, text, img }) => {
         <div className={classes.buttons}>
           <a href="">
             Läs mer
-            <NavigateNextIcon fontSize="small" style={{ marginTop: "5px" }} />
+            <i className="fas fa-angle-right"></i>
           </a>
         </div>
       </div>
