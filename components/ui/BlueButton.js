@@ -1,23 +1,17 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+import Link from "next/link";
+import classes from "./BlueButton.module.css";
 
-const GreenButton = (props) => {
+function BlueButton(props) {
   return (
-    <div>
-      <Button
-        variant="contained"
-        style={{
-          backgroundColor: "var(--blue)",
-          borderRadius: "50px",
-          padding: "10px 2.5rem",
-          textTransform: "none",
-        }}
-        href="#contained-buttons"
-      >
-        <p style={{ color: "white" }}>{props.children}</p>
-      </Button>
-    </div>
+    <span className={classes.blueButton}>
+      <Link href="/contact">
+        <a href="" className={classes.btn}>
+          {props.children}
+        </a>
+      </Link>
+    </span>
   );
-};
+}
 
-export default GreenButton;
+export default BlueButton;

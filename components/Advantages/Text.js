@@ -12,7 +12,7 @@ const Title = () => {
         recusandae veritatis sed laboriosam eveniet dolores suscipit?
       </p>
       <div className={classes.buttons}>
-        <BlueButton>Våra tjänster</BlueButton>
+        <BlueButton>Tjänster</BlueButton>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import classes from "./GreenButton.module.css";
+import classes from "./button.module.css";
 
-function GreenButton(props) {
+function Button(props) {
   return (
-    <span className={classes.greenButton}>
+    <span className={classes.button}>
       <Link href="/about">
         <a href="" className={classes.btn}>
           {props.children}
@@ -14,4 +14,4 @@ function GreenButton(props) {
   );
 }
 
-export default GreenButton;
+export default Button;

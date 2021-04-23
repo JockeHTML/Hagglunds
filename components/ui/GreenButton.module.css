@@ -1,0 +1,17 @@
+.btn {
+  color: var(--white);
+  background-color: var(--green);
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+}

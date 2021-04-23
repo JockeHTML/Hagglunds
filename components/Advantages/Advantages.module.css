@@ -1,8 +1,9 @@
 .advantages {
-  padding: var(--padding8) 0;
+  padding: var(--padding8) 1.5rem;
   display: flex;
   flex-direction: column;
   width: 60%;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -12,4 +13,27 @@
 
 .advantages h1 {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    width: 100%;
+    padding: var(--padding4) 1.5rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
 }

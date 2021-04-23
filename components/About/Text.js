@@ -7,7 +7,7 @@ const Text = () => {
   return (
     <div className={classes.text}>
       <div className={classes.content}>
-        <h2>Gör din kropp en tjänst</h2>
+        <h2>Hägglunds historia</h2>
         <p>
           Hägglunds Kiropraktik & Rehab AB grundades under 2012 som ett resultat
           av en sammanslagning av Hägglunds Kiropraktormottagning i Sundsvall

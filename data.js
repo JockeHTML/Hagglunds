@@ -90,7 +90,7 @@ export const cardData = [
 export const contactData = [
   {
     title: "Address",
-    text: "Marinvägen 3,  84742 Sundsvall",
+    text: "Marinvägen 3, 84742 Sundsvall",
     icon: "fas fa-map-marker-alt",
   },
   {
@@ -98,10 +98,34 @@ export const contactData = [
     text: "060-12 33 12",
     icon: "fas fa-phone-alt",
   },
+
   {
-    title: "E-post",
-    text: "andreas@legkiropraktik.se",
-    icon: "fas fa-envelope",
+    title: "Öppettider",
+    text: "Mån - Fredag: 08 - 17 ",
+    icon: "fas fa-map-marker-alt",
+  },
+];
+
+export const contactDataTwo = [
+  {
+    title: "Address",
+    text: "Hagvägen 16, 831 48 Östersund",
+    icon: "fas fa-map-marker-alt",
+  },
+  {
+    title: "Telefon",
+    text: "063-12 54 04",
+    icon: "fas fa-phone-alt",
+  },
+  {
+    title: "Address",
+    text: "Marinvägen 3, 84742 Sundsvall",
+    icon: "fas fa-map-marker-alt",
+  },
+  {
+    title: "Telefon",
+    text: "060-12 33 12",
+    icon: "fas fa-phone-alt",
   },
   {
     title: "Öppettider",

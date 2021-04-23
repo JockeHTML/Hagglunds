@@ -1,23 +1,17 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+import Link from "next/link";
+import classes from "./WhiteButton.module.css";
 
-const WhiteButton = (props) => {
+function WhiteButton(props) {
   return (
-    <div>
-      <Button
-        variant="contained"
-        style={{
-          backgroundColor: "var(--white)",
-          borderRadius: "50px",
-          padding: "10px 2.5rem",
-          textTransform: "none",
-        }}
-        href="#contained-buttons"
-      >
-        <p style={{ color: "var(--blue)" }}>{props.children}</p>
-      </Button>
-    </div>
+    <span className={classes.whiteButton}>
+      <Link href="/about">
+        <a href="" className={classes.btn}>
+          {props.children}
+        </a>
+      </Link>
+    </span>
   );
-};
+}
 
 export default WhiteButton;
