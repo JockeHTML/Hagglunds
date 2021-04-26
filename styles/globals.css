@@ -60,9 +60,9 @@ a {
 p {
   margin: 0;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1rem;
   color: var(--lightblue);
 }
 
@@ -78,12 +78,12 @@ h2 {
   margin: 0 0 1rem 0;
   padding: 0;
   color: var(--blue);
-  font-size: var(--size10);
+  font-size: var(--size8);
   line-height: 2rem;
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
   color: var(--blue);
   font-size: var(--size6);
@@ -94,7 +94,7 @@ h4 {
   margin: 0 0 10px 0;
   padding: 0;
   color: var(--blue);
-  font-size: var(--size5);
+  font-size: var(--size4);
   line-height: 1.75rem;
 }
 

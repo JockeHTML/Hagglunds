@@ -1,0 +1,14 @@
+.topImage {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topImage h1 {
+  color: var(--white);
+  margin: 0;
+}

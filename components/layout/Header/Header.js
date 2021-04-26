@@ -11,15 +11,15 @@ const Header = () => {
       <nav className={classes.nav}>
         <Logo />
         <ul>
-          {linksData.map((link, index) => {
-            const { title } = link;
+          {linksData.map((data, index) => {
+            const { title, link, icon } = data;
             return (
               <li key={index}>
                 <a href="#">
-                  <Link href="/">
+                  <Link href={link}>
                     <span>
                       <h4>{title}</h4>
-                      <i className="fas fa-angle-down"></i>
+                      <i className={icon}></i>
                     </span>
                   </Link>
                 </a>

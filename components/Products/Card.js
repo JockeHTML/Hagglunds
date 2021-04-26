@@ -21,10 +21,10 @@ export default function Card() {
               <h4>{title}</h4>
               <p>{text}</p>
               <div className={classes.buttons}>
-                <a href="">
-                  Läs mer
+                <span>
+                  <a href="">Läs mer</a>
                   <i className="fas fa-angle-right"></i>
-                </a>
+                </span>
               </div>
             </Paper>
           </Grid>

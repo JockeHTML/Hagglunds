@@ -1,0 +1,9 @@
+.chiropractic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding: var(--padding8) 1.5rem;
+}

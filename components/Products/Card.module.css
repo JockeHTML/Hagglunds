@@ -4,21 +4,27 @@
 }
 
 .paper p {
-  margin: 1px;
+  margin: 0 1rem;
   font-weight: 400;
-  font-size: 1rem;
+  line-height: 1.75;
+  font-size: 14px;
 }
 
 .paper img {
   margin-bottom: 10px;
 }
 
-.card i {
-  margin-top: 5px;
-}
-
 .buttons a {
   color: var(--green);
+}
+
+.buttons i {
+  margin-left: 3px;
+  margin-top: 5px;
+  color: var(--green);
+}
+
+.buttons span {
   display: flex;
   align-items: center;
 }

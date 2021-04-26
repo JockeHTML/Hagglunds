@@ -10,11 +10,13 @@
 .card p {
   margin-bottom: 1rem;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
+  line-height: 1.75;
 }
 
 .card i {
   margin-top: 5px;
+  margin-left: 3px;
 }
 
 .buttons a {

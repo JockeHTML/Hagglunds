@@ -5,25 +5,26 @@ export const linksData = [
   },
   {
     title: "Om oss",
-    link: "/",
+    link: "/om-oss",
   },
   {
     title: "Kiropraktik",
-    link: "/",
+    link: "/kiropraktik",
   },
 
   {
     title: "Massage",
-    link: "/",
+    link: "/massage",
   },
   {
     title: "Behandlingsmetoder",
-    link: "/",
+    link: "/behandlingsmetoder",
+    icon: "fas fa-angle-down",
   },
 
   {
     title: "Kontakt",
-    link: "/",
+    link: "/kontakt",
   },
 ];
 
@@ -71,7 +72,7 @@ export const cardData = [
     title: "Personlig behandlig",
     text:
       "Physical therapy is one of the major services which we offer. Our therapists works closely with patients to help them improve their movement potential and gain a healthier and more...",
-    img: "./images/trainer.jpg",
+    img: "./images/doctor.jpg",
   },
   {
     title: "Erfarenhet",
@@ -131,5 +132,79 @@ export const contactDataTwo = [
     title: "Öppettider",
     text: "Mån - Fredag: 08 - 17 ",
     icon: "fas fa-map-marker-alt",
+  },
+];
+
+export const staffData = [
+  {
+    name: "Andreas Hägglund",
+    email: "anton@legkiropraktik.se",
+    img: "./images/doctor.jpg",
+    title: "Kiropraktor, Sundsvall",
+    text:
+      "Utbildad kiropraktor vid Skandinaviska Kiropraktorhögskolan 2010-2014",
+    extra:
+      "Utbildad vid Skandinaviska Kiropraktorhögskolan 2001-2006. Flyttade direkt efter avslutade studier till Östersund och övertog där Werme Ryggcenter sedemera Led & Muskelvärkstan. Är nu VD för Hägglunds Kiropraktik & Rehab AB.",
+  },
+  {
+    name: "Anton Hägglund",
+    email: "anton@legkiropraktik.se",
+    img: "./images/doctor.jpg",
+    title: "Kiropraktor, Östersund",
+    text:
+      "Utbildad kiropraktor vid Skandinaviska Kiropraktorhögskolan 2010-2014",
+    extra:
+      "Utbildad vid Skandinaviska Kiropraktorhögskolan 2001-2006. Flyttade direkt efter avslutade studier till Östersund och övertog där Werme Ryggcenter sedemera Led & Muskelvärkstan. Är nu VD för Hägglunds Kiropraktik & Rehab AB.",
+  },
+  {
+    name: "Marcus Sterner",
+    email: "anton@legkiropraktik.se",
+    img: "./images/doctor.jpg",
+    title: "Kiropraktor, Östersund",
+    text:
+      "Utbildad kiropraktor vid Skandinaviska Kiropraktorhögskolan 2010-2014",
+    extra:
+      "Utbildad vid Skandinaviska Kiropraktorhögskolan 2001-2006. Flyttade direkt efter avslutade studier till Östersund och övertog där Werme Ryggcenter sedemera Led & Muskelvärkstan. Är nu VD för Hägglunds Kiropraktik & Rehab AB.",
+  },
+  {
+    name: "Julia Sällström",
+    email: "anton@legkiropraktik.se",
+    img: "./images/doctor.jpg",
+    title: "Kiropraktor, Östersund",
+    text:
+      "Utbildad kiropraktor vid Skandinaviska Kiropraktorhögskolan 2010-2014",
+    extra:
+      "Utbildad vid Skandinaviska Kiropraktorhögskolan 2001-2006. Flyttade direkt efter avslutade studier till Östersund och övertog där Werme Ryggcenter sedemera Led & Muskelvärkstan. Är nu VD för Hägglunds Kiropraktik & Rehab AB.",
+  },
+  {
+    name: "Taha Aldujaili",
+    email: "anton@legkiropraktik.se",
+    img: "./images/doctor.jpg",
+    title: "Kiropraktor, Östersund",
+    text:
+      "Utbildad kiropraktor vid Skandinaviska Kiropraktorhögskolan 2010-2014",
+    extra:
+      "Utbildad vid Skandinaviska Kiropraktorhögskolan 2001-2006. Flyttade direkt efter avslutade studier till Östersund och övertog där Werme Ryggcenter sedemera Led & Muskelvärkstan. Är nu VD för Hägglunds Kiropraktik & Rehab AB.",
+  },
+];
+
+export const chiropracticData = [
+  {
+    title: "Kiropraktisk undersökning",
+    text:
+      "Den kiropraktiska undersökningen och behandlingen fokuserar på att finna de funktioner i rörelseapparaten som är nedsatta och återställa dem för att på så sätt optimera kroppens egen läkningsförmåga. Den nedsatta funktionen kan bl.a. bestå i nedsatt ledrörlighet, nedsatt muskelflexibilitet, felaktigt rörelsemönster etc. För att ställa diagnos använder sig kiropraktorn av både neurologiska och ortopediska tester. Utöver detta så tillkommer undersökningsmoment som bland annat innefattar undersökning av ledrörlighet, rörelsemönster och muskelfunktion.",
+    img: "./images/bg.jpg",
+  },
+  {
+    title: "Sammanställning",
+    text:
+      "Sjukdomshistorian och resultatet av undersökningen vägs samman till en diagnos och är denna lämpad för kiropraktisk behandling planeras ett behandlingsupplägg i samråd med patienten. Kiropraktorn arbetar utefter den biopsykosociala modellen och ser alltid till hela patienten och patientens situation. Vid behov av ytterligare utredning hänvisas patienten vidare till läkare.",
+    img: "./images/bg.jpg",
+  },
+  {
+    title: "Behandlingsmetoder",
+    text:
+      "Behandlingsmetoderna som en kiropraktor har att tillgå är bla. HVLA-manipulation (High Velocity Low Amplitude) samt ledmobilisering. Dessa används för att normalisera rörligheten i den specifika leden. Mjukdelsbehandling såsom stretching/töjning och behandling av triggerpunkter syftar till att återställa muskelflexibiliteten. Behandlingen kompletteras därutöver med individuellt anpassad rehabilitering, i form av lämpliga övningar och råd för att påskynda tillfrisknandet och förebygga framtida besvär.",
+    img: "./images/bg.jpg",
   },
 ];
