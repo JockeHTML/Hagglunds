@@ -27,9 +27,7 @@ const Header = () => {
             );
           })}
           <li>
-            <a href="">
-              <GreenButton>Boka nu</GreenButton>
-            </a>
+            <GreenButton>Boka nu</GreenButton>
           </li>
         </ul>
       </nav>

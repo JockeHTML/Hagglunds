@@ -247,3 +247,16 @@ export const insuranceData = [
       "Observera att all vård måste bokas via respektive försäkringsbolags vårdplanering. Var god kontakta dessa innan tidsbokning kan ske.",
   },
 ];
+
+export const treatmentsData = [
+  {
+    title: "Behandlingsmetoder",
+    text:
+      "Kiropraktik som behandlingsform omfattar undersökning, diagnostik, behandling och rehabilitering av besvär och smärtor kopplade till rörelseapparaten. Det kiropraktiska omhändertagandet syftar till att finna de funktioner i rörelseapparaten som är påverkade och återställa dem för att på så sätt optimera kroppens egen läkningsförmåga. För att ställa diagnos använder sig kiropraktorn av både neurologiska och ortopediska tester. Utöver detta så tillkommer givetvis de kiropraktiska undersökningsmomenten som bland annat innefattar undersökning av ledrörlighet, rörelsemönster och muskelfunktion. Patientens sjukdomshistoria och resultatet av undersökningen vägs sedan samman till en diagnos och är denna lämpad för kiropraktisk behandling så planeras ett behandlingsupplägg i samråd med patienten. Vid behov av ytterligare utredning eller annan specialistkompetens så hänvisas patienten vidare till läkare eller annan vårdgivare, allt för att tillgodose patientens behov och bästa.",
+  },
+  {
+    secondTitle: "Är kiropraktisk behandling säker?",
+    secondText:
+      "Forskning har visat att allvarliga komplikationer i samband med kiropraktisk behandling är ytterst sällsynta. Som vid all verksam medicinsk behandling kan patienten få reaktioner på behandlingen. Vanligast är lokal ömhet i det området som behandlats. Undersökningar visar dock att dessa reaktioner är väldigt milda och snabbt övergående.",
+  },
+];

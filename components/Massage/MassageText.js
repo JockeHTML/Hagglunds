@@ -29,19 +29,19 @@ const AboutText = () => {
       <h2>För dig som har</h2>
       <ul>
         <li>
-          <i class="fas fa-angle-right"></i>
+          <i className="fas fa-angle-right"></i>
           <p>Spända och trötta muskler</p>
         </li>
         <li>
-          <i class="fas fa-angle-right"></i>
+          <i className="fas fa-angle-right"></i>
           <p>Ont i nacke/axlar/rygg</p>
         </li>
         <li>
-          <i class="fas fa-angle-right"></i>
+          <i className="fas fa-angle-right"></i>
           <p>Tränat hårt och vill ha snabbare återhämtning</p>
         </li>
         <li>
-          <i class="fas fa-angle-right"></i>
+          <i className="fas fa-angle-right"></i>
           <p>Skadat dig och är i rehabiliteringsfas</p>
         </li>
         <li>

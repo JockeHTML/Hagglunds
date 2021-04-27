@@ -4,13 +4,15 @@ import classes from "./GreenButton.module.css";
 
 function GreenButton(props) {
   return (
-    <span className={classes.greenButton}>
-      <Link href="/about">
-        <a href="" className={classes.btn}>
-          {props.children}
-        </a>
-      </Link>
-    </span>
+    <div className={classes.greenButton}>
+      <span>
+        <Link href="/contact">
+          <a href="" className={classes.btn}>
+            {props.children}
+          </a>
+        </Link>
+      </span>
+    </div>
   );
 }
 

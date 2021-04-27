@@ -1,0 +1,24 @@
+.topImage {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topImage h1 {
+  color: var(--white);
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding: var(--padding8) 1.5rem 3rem 1.5rem;
+}

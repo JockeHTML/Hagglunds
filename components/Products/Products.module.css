@@ -11,6 +11,10 @@
   width: 45%;
 }
 
+.title span {
+  color: var(--green);
+}
+
 .title h1 {
   margin-bottom: 10px;
 }
