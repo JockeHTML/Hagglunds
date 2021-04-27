@@ -9,7 +9,7 @@ const Products = () => {
     <div className={classes.products}>
       <div className={classes.title}>
         <h1>
-          <span>Våra</span> behandlingsmetoder
+          Våra <span>tjänster</span>
         </h1>
         <p>
           {" "}

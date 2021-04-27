@@ -5,7 +5,7 @@ import { insuranceData } from "../../data";
 
 const index = () => {
   return (
-    <div className={classes.foretag}>
+    <div className={classes.sjukvardsforsakring}>
       <div className={classes.topImage}>
         <h1>Sjukvårdsförsäkring</h1>
       </div>

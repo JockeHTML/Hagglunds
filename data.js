@@ -212,7 +212,7 @@ export const chiropracticData = [
 
 export const companysData = [
   {
-    title: "Behandlingar för er",
+    title: "Behandlingar för er företag",
     subtitle:
       "Hägglunds Kiropraktik & Rehab AB erbjuder individuella lösningar tillsmå och stora företag, inom både kiropraktisk friskvård och förebyggandekiropraktisk behandling och rehabilitering. Kontakta oss för ytterligareinformation eller offert.",
     text:

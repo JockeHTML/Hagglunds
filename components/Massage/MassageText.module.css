@@ -27,3 +27,10 @@
 .massageText span {
   color: var(--green);
 }
+
+@media (max-width: 768px) {
+  .massageText {
+    width: 100%;
+    padding: 0;
+  }
+}
