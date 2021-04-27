@@ -1,0 +1,13 @@
+.massage {
+  display: flex;
+  padding: var(--padding8) 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+}

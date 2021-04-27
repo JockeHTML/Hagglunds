@@ -3,10 +3,7 @@ export const linksData = [
     title: "Hem",
     link: "/",
   },
-  {
-    title: "Om oss",
-    link: "/om-oss",
-  },
+
   {
     title: "Kiropraktik",
     link: "/kiropraktik",
@@ -21,7 +18,11 @@ export const linksData = [
     link: "/behandlingsmetoder",
     icon: "fas fa-angle-down",
   },
-
+  {
+    title: "Om oss",
+    link: "/om-oss",
+    icon: "fas fa-angle-down",
+  },
   {
     title: "Kontakt",
     link: "/kontakt",
@@ -206,5 +207,43 @@ export const chiropracticData = [
     text:
       "Behandlingsmetoderna som en kiropraktor har att tillgå är bla. HVLA-manipulation (High Velocity Low Amplitude) samt ledmobilisering. Dessa används för att normalisera rörligheten i den specifika leden. Mjukdelsbehandling såsom stretching/töjning och behandling av triggerpunkter syftar till att återställa muskelflexibiliteten. Behandlingen kompletteras därutöver med individuellt anpassad rehabilitering, i form av lämpliga övningar och råd för att påskynda tillfrisknandet och förebygga framtida besvär.",
     img: "./images/treatment.jpg",
+  },
+];
+
+export const companysData = [
+  {
+    title: "Behandlingar för er",
+    subtitle:
+      "Hägglunds Kiropraktik & Rehab AB erbjuder individuella lösningar tillsmå och stora företag, inom både kiropraktisk friskvård och förebyggandekiropraktisk behandling och rehabilitering. Kontakta oss för ytterligareinformation eller offert.",
+    text:
+      "Kiropraktisk behandling och rehabilitering eller friskvård är en lönsaminvestering för alla företag, då frisk och välmående personal är enförutsättning för ett väl fungerande företag. För detta får avdraggöras, av arbetsgivaren, för förebyggande behandling och/eller rehabilitering av de anställda. Läs mer om detta på Skatteverkets hemsida. Fri förebyggande behandling och rehabiliter",
+  },
+  {
+    secondTitle: "En lönsam investering",
+    secondText:
+      "Här är några punkter som belyser varför kiropraktisk behandling, i förebyggande eller rehabiliterande syfte, är en bra och lönsam investering för företag: Smärta och besvär ifrån nacke och rygg hör till de vanligaste orsakerna till sjukfrånvaro och förtidspensionering. Rygg och nackbesvär orsakar dessutom trötthet och minskad koncentrationsförmåga vilket är negativt både för individen och företaget. Vetenskapliga undersökningar visar att kiropraktisk behandling är kostnadseffektivt både vid akut och långvarig nack- och ryggproblematik. Statens beredning för medicinsk utvärdering (SBU) utkom med “akut rygg- och nacksmärta” år 2001 där det noterades att forskningen är av god kvalitet och visar att kiropraktisk behandling är effektiv vid ryggbesvär.",
+  },
+  {
+    thirdText:
+      "Skatteverket gör i sin bedömning skillnad på friskvård, förebyggande behandling och rehabilitering samt kiropraktisk behandling, när det gäller företags/arbetsgivares rätt till avdrag för dessa tjänster. För mer detaljerad information läs skatteverkets förtydligande här.",
+  },
+];
+
+export const insuranceData = [
+  {
+    title: "Du kan få behandling",
+    subtitle:
+      "Visste du att i dagsläget innehåller många sjukvårdsförsäkringar möjlighet till behandling hos kiropraktor.",
+    text:
+      "Hägglunds Kiropraktik & Rehab AB kan genom samarbete med många stora försäkringsbolag erbjuda kiropraktisk behandling och rehabilitering inom ramarna för respektive sjukvårdsförsäkring.",
+  },
+  {
+    secondTitle: "Har du sjukvårdsförsäkring?",
+    secondText:
+      "Är du osäker om kiropraktisk behandling ingår i just din sjukvårdsförsäkring, och vilka villkor som gäller, vänligen kontakta ditt försäkringsbolag. Vi är även anslutna till Falck Healthcare och Trygg Rygg.",
+  },
+  {
+    thirdText:
+      "Observera att all vård måste bokas via respektive försäkringsbolags vårdplanering. Var god kontakta dessa innan tidsbokning kan ske.",
   },
 ];

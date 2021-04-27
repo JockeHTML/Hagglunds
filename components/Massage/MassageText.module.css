@@ -1,0 +1,29 @@
+.massageText p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.massageText {
+  width: 60%;
+  padding: 0 1rem;
+}
+
+.massageText ul {
+  text-decoration: none;
+  padding: 0;
+}
+
+.massageText li {
+  display: flex;
+  align-items: center;
+}
+
+.massageText i {
+  margin-right: 5px;
+  color: var(--lightblue);
+}
+
+.massageText span {
+  color: var(--green);
+}

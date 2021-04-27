@@ -4,19 +4,24 @@ import classes from "./PatientText.module.css";
 const PatientText = () => {
   return (
     <div className={classes.patientText}>
-      <h2>Utbildning & legitimation</h2>
+      <h2>Kvalitet & patientsäkerhet</h2>
       <p>
-        I Sverige sker utbildningen vid Skandinaviska Kiropraktorhögskolan i
-        Solna, studierna omfattar fem års heltidsstudier. Socialstyrelsen
-        utfärdar yrkeslegitimation efter godkänd examen samt genomförd
-        allmäntjänstgöring, inom den svenska hälso- och sjukvården.
-        Kiropraktorer är sedan 1999 legitimerade av Socialstyrelsen. Det innebär
-        att kiropraktorer står under gällande Patientsäkerhetslag (SFS
-        2010:659), samt under tillsyn av Inspektionen för Vård och Omsorg (IVO),
-        vilken är den myndighet som idag står för all tillsyn gällande hälso-
-        och sjukvård. Titelskydd för kiropraktorer infördes 2006, vilket innebär
-        att endast kiropraktorer med adekvat utbildning och av Socialstyrelsen
-        utfärdad legitimation har rätten att kalla sig för kiropraktor.
+        Kiropraktorerna som arbetar hos Hägglunds Kiropraktik & Rehab AB är alla
+        legitimerade av Socialstyrelsen eller gör sin allmänstjänstgöring
+        (AT-tjänst) hos oss. Vi ställer som krav att våra kiropraktorer är
+        medlemmar i Kiropraktiska Föreningen i Sverige. Medlemskapet innebär
+        strikta etiska regler med höga krav på kvalitetssäkring och kontinuerlig
+        vidareutbildning, vidare ger ett medlemskap en heltäckande patient- och
+        ansvarsförsäkring, vilket är viktigt för dig som patient.
+        Kvalitetssäkringsarbetet bedrivs i enlighet med SOFS 2001:9
+        Socialstyrelsens föreskrifter och allmänna råd gällande Ledningssystem
+        för systematiskt kvalitetsarbete. Ledningssystemet är framtaget i
+        samarbete mellan Skandinaviska Kiropraktorhögskolan och Kiropraktiska
+        Föreningen i Sverige (KFS) för att säkerställa att behandlingskvalitet
+        och patientsäkerhet är vägledande vid all kontakt med patienter.
+        Systemet KvK revideras årligen på grundval av ny lagstiftning,
+        forskning, erfarenheter från de i systemet ingående
+        kiropraktormottagningarna samt patientenkäter.
       </p>
     </div>
   );
