@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Sjukvardsforsakring.module.css";
+import classes from "./sjukvardsforsakring.module.css";
 import Companys from "../../components/Companys/Companys";
 import { insuranceData } from "../../data";
 
