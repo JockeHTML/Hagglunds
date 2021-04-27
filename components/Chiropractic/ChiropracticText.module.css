@@ -1,11 +1,15 @@
 .chiropracticText {
-  padding: var(--padding4) 0 0 0;
+  padding: 0 0 var(--padding2) 0;
   display: flex;
   align-items: center;
 }
 
 .chiropracticText p {
   font-size: 14px;
+}
+
+.chiropracticText h3 {
+  color: var(--green);
 }
 
 .image {

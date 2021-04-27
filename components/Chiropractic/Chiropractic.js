@@ -8,6 +8,10 @@ const Chiropractic = () => {
   return (
     <div className={classes.chiropractic}>
       <Title />
+      <h1>
+        Hur <span style={{ color: "var(--green)" }}>funkar</span> det?
+      </h1>
+
       {chiropracticData.map((data, index) => {
         const { title, text, img } = data;
         return (

@@ -193,18 +193,18 @@ export const chiropracticData = [
     title: "Kiropraktisk undersökning",
     text:
       "Den kiropraktiska undersökningen och behandlingen fokuserar på att finna de funktioner i rörelseapparaten som är nedsatta och återställa dem för att på så sätt optimera kroppens egen läkningsförmåga. Den nedsatta funktionen kan bl.a. bestå i nedsatt ledrörlighet, nedsatt muskelflexibilitet, felaktigt rörelsemönster etc. För att ställa diagnos använder sig kiropraktorn av både neurologiska och ortopediska tester. Utöver detta så tillkommer undersökningsmoment som bland annat innefattar undersökning av ledrörlighet, rörelsemönster och muskelfunktion.",
-    img: "./images/bg.jpg",
+    img: "./images/examination.jpg",
   },
   {
     title: "Sammanställning",
     text:
       "Sjukdomshistorian och resultatet av undersökningen vägs samman till en diagnos och är denna lämpad för kiropraktisk behandling planeras ett behandlingsupplägg i samråd med patienten. Kiropraktorn arbetar utefter den biopsykosociala modellen och ser alltid till hela patienten och patientens situation. Vid behov av ytterligare utredning hänvisas patienten vidare till läkare.",
-    img: "./images/bg.jpg",
+    img: "./images/checklist.jpg",
   },
   {
     title: "Behandlingsmetoder",
     text:
       "Behandlingsmetoderna som en kiropraktor har att tillgå är bla. HVLA-manipulation (High Velocity Low Amplitude) samt ledmobilisering. Dessa används för att normalisera rörligheten i den specifika leden. Mjukdelsbehandling såsom stretching/töjning och behandling av triggerpunkter syftar till att återställa muskelflexibiliteten. Behandlingen kompletteras därutöver med individuellt anpassad rehabilitering, i form av lämpliga övningar och råd för att påskynda tillfrisknandet och förebygga framtida besvär.",
-    img: "./images/bg.jpg",
+    img: "./images/treatment.jpg",
   },
 ];
