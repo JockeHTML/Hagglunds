@@ -44,6 +44,7 @@ const Header = () => {
             <Link href="/om-oss">Om oss</Link>
             <i className="fas fa-angle-down"></i>
           </li>
+
           <div className={active ? classes.activeDropdown : null}>
             <ul>
               {active
