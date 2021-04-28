@@ -1,16 +1,11 @@
 import React from "react";
-import Link from "next/link";
 import classes from "./GreenButton.module.css";
 
-function GreenButton(props) {
+function GreenButton({ children }) {
   return (
     <div className={classes.greenButton}>
       <span>
-        <Link href="/contact">
-          <a href="" className={classes.btn}>
-            {props.children}
-          </a>
-        </Link>
+        <p className={classes.btn}>{children}</p>
       </span>
     </div>
   );

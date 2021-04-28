@@ -12,10 +12,12 @@ const Card = ({ title, text, img }) => {
         <h4>{title}</h4>
         <p>{text}</p>
         <div className={classes.buttons}>
-          <a href="">
-            Läs mer
-            <i className="fas fa-angle-right"></i>
-          </a>
+          <Link href="/om-oss">
+            <a>
+              Läs mer
+              <i className="fas fa-angle-right"></i>
+            </a>
+          </Link>
         </div>
       </div>
     </div>

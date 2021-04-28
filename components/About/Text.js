@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Text.module.css";
 import BlueButton from "../ui/BlueButton";
 import GreenButton from "../ui/GreenButton";
+import Link from "next/link";
 
 const Text = () => {
   return (
@@ -24,8 +25,16 @@ const Text = () => {
         </p>
       </div>
       <div className={classes.buttons}>
-        <GreenButton>Kontakt</GreenButton>
-        <BlueButton>Läs mer</BlueButton>
+        <Link passHref href="/kontakt">
+          <a>
+            <GreenButton>Kontakt</GreenButton>
+          </a>
+        </Link>
+        <Link passHref href="/om-oss">
+          <a>
+            <BlueButton>Läs mer</BlueButton>
+          </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Slider.module.css";
-import WhiteButton from "../ui/WhiteButton";
+import GreenButton from "../ui/GreenButton";
+import Link from "next/link";
 
 const Slider = () => {
   return (
@@ -10,12 +11,17 @@ const Slider = () => {
           Kiropraktorerna som arbetar hos Hägglunds är alla legitimerade av
           Socialstyrelsen
         </h3>
-        <div className={classes.buttons}>
-          <WhiteButton>Läs mer</WhiteButton>
-        </div>
       </div>
     </div>
   );
 };
 
 export default Slider;
+
+/* <div className={classes.buttons}>
+          <Link passHref href="/om-oss">
+            <a>
+              <GreenButton>Läs mer</GreenButton>
+            </a>
+          </Link>
+        </div>*/

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Text.module.css";
-import BlueButton from "../ui/BlueButton";
+import GreenButton from "../ui/GreenButton";
+import Link from "next/link";
 
 const Title = () => {
   return (
@@ -12,7 +13,11 @@ const Title = () => {
         recusandae veritatis sed laboriosam eveniet dolores suscipit?
       </p>
       <div className={classes.buttons}>
-        <BlueButton>Tjänster</BlueButton>
+        <Link passHref href="/boka">
+          <a>
+            <GreenButton>boka</GreenButton>
+          </a>
+        </Link>
       </div>
     </div>
   );

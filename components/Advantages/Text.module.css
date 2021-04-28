@@ -18,6 +18,7 @@
 
 .buttons {
   margin-top: 2rem;
+  width: 140px;
 }
 
 @media (max-width: 768px) {

@@ -31,10 +31,7 @@ export const dropdownData = [
     title: "Företag",
     link: "/foretag",
   },
-  {
-    title: "Kiropraktik",
-    link: "/kiropraktik",
-  },
+
   {
     title: "Sjukvårdsförsäkring",
     link: "/sjukvardsforsakring",
@@ -43,40 +40,39 @@ export const dropdownData = [
 
 export const productsData = [
   {
-    title: "Kiropraktik",
+    title: "HVLA-manipulation",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/chiropractic.png",
-  },
-  {
-    title: "Massage",
-    text:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
-    icon: "./images/massage.png",
+    link: "/hvla-manipulation",
   },
   {
     title: "Rehabilitering",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/rehab.png",
+    link: "/rehabilitering",
   },
   {
-    title: "Terapeutisk Laser",
+    title: "Terapeutisk-Laser",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/hair.png",
+    link: "terapeutisk-laser",
   },
   {
     title: "Stötvågsbehandling",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/waves.png",
+    link: "/stotvagsbehandling",
   },
   {
     title: "Mjukdelsbehandling",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/back.png",
+    link: "",
   },
 ];
 

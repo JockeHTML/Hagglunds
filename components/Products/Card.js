@@ -3,12 +3,13 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { productsData } from "../../data";
 import classes from "./Card.module.css";
+import Link from "next/link";
 
 export default function Card() {
   return (
     <Grid lg={6} container item spacing={4} justify="center">
       {productsData.map((data, index) => {
-        const { title, text, icon } = data;
+        const { title, text, icon, link } = data;
         return (
           <Grid key={index} item lg={4}>
             <Paper className={classes.paper}>
@@ -21,10 +22,12 @@ export default function Card() {
               <h4>{title}</h4>
               <p>{text}</p>
               <div className={classes.buttons}>
-                <span>
-                  <a href="">Läs mer</a>
-                  <i className="fas fa-angle-right"></i>
-                </span>
+                <Link href={link}>
+                  <a>
+                    Läs mer
+                    <i className="fas fa-angle-right"></i>
+                  </a>
+                </Link>
               </div>
             </Paper>
           </Grid>
