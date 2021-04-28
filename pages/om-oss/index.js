@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./styles.css";
+import classes from "../../styles/om-oss.module.css";
 import AboutPage from "../../components/AboutPage/AboutPage";
 
 const index = () => {

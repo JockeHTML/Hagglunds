@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./styles.css";
+import classes from "../../styles/kiropraktik.module.css";
 import Chiropractic from "../../components/Chiropractic/Chiropractic";
 
 const index = () => {

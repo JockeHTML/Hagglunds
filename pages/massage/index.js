@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./styles.css";
+import classes from "../../styles/massage.module.css";
 import Massage from "../../components/Massage/Massage";
 
 const index = () => {

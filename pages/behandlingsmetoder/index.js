@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./styles.css";
+import classes from "../../styles/behandlingsmetoder.module.css";
 import Products from "../../components/Products/Products";
 import Companys from "../../components/Companys/Companys";
 import { treatmentsData } from "../../data";
