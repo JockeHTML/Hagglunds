@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./header.module.css";
+import classes from "./Header.module.css";
 import { linksData } from "../../../data";
 import Link from "next/link";
 import { dropdownData } from "../../../data.js";
