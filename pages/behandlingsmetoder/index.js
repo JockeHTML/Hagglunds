@@ -1,9 +1,8 @@
 import React from "react";
-import classes from "./behandlingsmetoder.module.css";
+import classes from "./styles.css";
 import Products from "../../components/Products/Products";
 import Companys from "../../components/Companys/Companys";
 import { treatmentsData } from "../../data";
-
 const index = () => {
   return (
     <div className={classes.behandlingsbetoder}>

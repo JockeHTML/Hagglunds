@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./foretag.module.css";
+import classes from "./styles.css";
 import Companys from "../../components/Companys/Companys";
 import { companysData } from "../../data";
 
