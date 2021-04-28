@@ -12,3 +12,16 @@
   color: var(--white);
   margin: 0;
 }
+
+.kiropraktik h1 {
+  margin: var(--padding4) 0;
+  text-align: center;
+}
+
+.kiropraktik span {
+  color: var(--green);
+}
+
+.content {
+  padding-bottom: 3rem;
+}

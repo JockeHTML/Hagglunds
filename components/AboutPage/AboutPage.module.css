@@ -1,6 +1,6 @@
 .aboutPage {
   display: flex;
-  padding: var(--padding8) 1.5rem 3rem 1.5rem;
+  padding: var(--padding8) 1.5rem;
   justify-content: center;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +26,11 @@
   flex-wrap: wrap;
   padding: 0 1.5rem;
   justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {

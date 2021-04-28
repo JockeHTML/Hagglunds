@@ -29,11 +29,14 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 50%;
-  align-items: center;
   margin: auto;
   padding: var(--padding8) 1.5rem 3rem 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 3rem;
 }
 
 @media (max-width: 768px) {

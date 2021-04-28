@@ -22,7 +22,7 @@ export default function Card() {
               <h4>{title}</h4>
               <p>{text}</p>
               <div className={classes.buttons}>
-                <Link href={link}>
+                <Link href={`/${link}`}>
                   <a>
                     Läs mer
                     <i className="fas fa-angle-right"></i>

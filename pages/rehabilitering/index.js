@@ -1,23 +1,23 @@
 import React from "react";
-import classes from "../../styles/sjukvardsforsakring.module.css";
+import classes from "../../styles/foretag.module.css";
 import Companys from "../../components/Companys/Companys";
-import { insuranceData } from "../../data";
+import { rehabData } from "../../data";
 import Link from "next/link";
 import BlueButton from "../../components/ui/BlueButton";
 import GreenButton from "../../components/ui/GreenButton";
 
 const index = () => {
   return (
-    <div className={classes.sjukvardsforsakring}>
+    <div className={classes.foretag}>
       <div className={classes.topImage}>
-        <h1>Sjukvårdsförsäkring</h1>
+        <h1>Rehabilitering</h1>
       </div>
 
       <div className={classes.content}>
         <h1>
-          Möjlighet <span>till</span> behandling
+          Hur <span>funkar</span> det?
         </h1>
-        {insuranceData.map((data, index) => {
+        {rehabData.map((data, index) => {
           const {
             title,
             subtitle,
@@ -44,9 +44,9 @@ const index = () => {
               <GreenButton>Kontakt</GreenButton>
             </a>
           </Link>
-          <Link passHref href="/behandlingsmetoder">
+          <Link passHref href="/om-oss">
             <a>
-              <BlueButton>Tjänster</BlueButton>
+              <BlueButton>Om oss</BlueButton>
             </a>
           </Link>
         </div>

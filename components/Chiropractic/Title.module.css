@@ -1,4 +1,7 @@
 .title {
   /*border-bottom: 1px solid rgba(50, 50, 50, 0.1);*/
   padding-bottom: var(--padding4);
+  width: 50%;
+  margin: auto;
+  padding: var(--padding8) 1.5rem 0 1.5rem;
 }

@@ -44,14 +44,14 @@ export const productsData = [
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/chiropractic.png",
-    link: "/hvla-manipulation",
+    link: "hvla-manipulation",
   },
   {
     title: "Rehabilitering",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/rehab.png",
-    link: "/rehabilitering",
+    link: "rehabilitering",
   },
   {
     title: "Terapeutisk-Laser",
@@ -65,14 +65,14 @@ export const productsData = [
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/waves.png",
-    link: "/stotvagsbehandling",
+    link: "stotvagsbehandling",
   },
   {
     title: "Mjukdelsbehandling",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quibusdam!",
     icon: "./images/back.png",
-    link: "",
+    link: "mjukdelsbehandling",
   },
 ];
 
@@ -266,5 +266,44 @@ export const treatmentsData = [
     secondTitle: "Är kiropraktisk behandling säker?",
     secondText:
       "Forskning har visat att allvarliga komplikationer i samband med kiropraktisk behandling är ytterst sällsynta. Som vid all verksam medicinsk behandling kan patienten få reaktioner på behandlingen. Vanligast är lokal ömhet i det området som behandlats. Undersökningar visar dock att dessa reaktioner är väldigt milda och snabbt övergående.",
+  },
+];
+
+export const hvlaData = [
+  {
+    title: "High Velocity Low Amplitude",
+    subtitle:
+      "HVLA är en förkortning på High Velocity Low Amplitude och benämns ofta som HVLA-manipulation eller kiropraktisk justering.",
+    text:
+      "HVLA-manipulation kan definieras som en riktad manipulation mot en specifik led med en kontrollerad hastighet, rörelse och kraft. Denna manipulation påverkar bl. a. mekano- och smärtreceptorer i leden och resulterar i ökad ledrörlighet, förändrat rörelsemönster och minskad smärta.",
+  },
+  {
+    secondTitle: "Öka rörligheten i dina leder",
+    secondText:
+      "En kiropraktisk justering är en specifik rörelse vars syfte är att öka/normalisera rörligheten i en led som inte har normal rörlighet. Detta i sin tur leder till minskad irritation på omkringliggande strukturer. De flesta justeringar görs med kiropraktorns händer men andra hjälpmedel som olika typer av behandlingsbänkar och speciella kiropraktiska instrument kan förekomma.",
+  },
+  {
+    thirdText:
+      "Det är samspelet mellan nervsystemet som är kroppens kommunikations- och kontrollsystem, och ryggradens funktion. Detta samspel utgör underlaget för kiropraktik. Den kiropraktiska justeringen påverkar en leds funktion och via nervsystemet därmed även muskulaturens funktion. När en led separeras snabbt som vid en del kiropraktiska justeringar ändras trycket inne i leden. Detta kan ibland resultera i att en gasbubbla bildas, expanderar och brister. Detta ljud är vad patienten uppfattar som ”knaket”, det är alltså inga ben som flyttas eller går sönder.      ",
+  },
+];
+
+export const rehabData = [
+  {
+    title: "Rehabilitering",
+    text:
+      "Hägglunds Kiropraktik & Rehab har ett synsätt där patientens delaktighet är viktig för ett så snabbt tillfrisknande som möjligt. En del i detta är att, vid behov, utforma ett individuellt anpassat träningsprogram för att motverka och förebygga patientens besvär.    ",
+  },
+  {
+    secondTitle: "Övningar",
+    secondText:
+      "Vi föredrar enkla effektiva övningar som inte kräver några större redskap, utan vi använder oss bl a av balansboll, gummiband och foam-roller. Den viktigaste aspekten i en lyckad rehabilitering  är ”rätt” övningar  och att man som patient gör dessa övningar som man blivit rekommenderad.",
+  },
+];
+
+export const softpartsData = [
+  {
+    title: "Mjukdelsbehandling",
+    text: "Information kommer inom kort...",
   },
 ];

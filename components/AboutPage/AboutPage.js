@@ -4,6 +4,9 @@ import AboutText from "./AboutText";
 import EducationText from "./EducationText";
 import Staff from "./Staff";
 import { staffData } from "../../data";
+import Link from "next/link";
+import BlueButton from "../../components/ui/BlueButton";
+import GreenButton from "../../components/ui/GreenButton";
 
 const AboutPage = () => {
   return (
@@ -32,6 +35,18 @@ const AboutPage = () => {
               />
             );
           })}
+        </div>
+        <div className={classes.buttons}>
+          <Link passHref href="/kontakt">
+            <a>
+              <GreenButton>Kontakt</GreenButton>
+            </a>
+          </Link>
+          <Link passHref href="/behandlingsmetoder">
+            <a>
+              <BlueButton>Tjänster</BlueButton>
+            </a>
+          </Link>
         </div>
       </div>
     </div>

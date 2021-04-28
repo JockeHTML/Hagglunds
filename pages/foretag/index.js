@@ -2,6 +2,9 @@ import React from "react";
 import classes from "../../styles/foretag.module.css";
 import Companys from "../../components/Companys/Companys";
 import { companysData } from "../../data";
+import Link from "next/link";
+import BlueButton from "../../components/ui/BlueButton";
+import GreenButton from "../../components/ui/GreenButton";
 
 const index = () => {
   return (
@@ -35,6 +38,18 @@ const index = () => {
             />
           );
         })}
+        <div className={classes.buttons}>
+          <Link passHref href="/kontakt">
+            <a>
+              <GreenButton>Kontakt</GreenButton>
+            </a>
+          </Link>
+          <Link passHref href="/behandlingsmetoder">
+            <a>
+              <BlueButton>Tjänster</BlueButton>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -10,15 +10,15 @@
   margin-top: 3rem;
 }
 
+.buttons {
+  padding: 0 2rem;
+}
+
 .content p {
   width: 50%;
 }
 
 .content {
-  padding: 0 2rem;
-}
-
-.buttons {
   padding: 0 2rem;
 }
 
