@@ -1,37 +1,67 @@
-import React from "react";
-import classes from "./Header.module.css";
-import Link from "next/link";
+import React, { useState } from "react";
+import classes from "./header.module.css";
 import { linksData } from "../../../data";
+import Link from "next/link";
+import { dropdownData } from "../../../data.js";
 import Logo from "../Logo";
-import GreenButton from "../../ui/GreenButton";
 
 const Header = () => {
+  const [active, setActive] = useState(false);
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setActive(false);
+    } else {
+      setActive(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setActive(false);
+    } else {
+      setActive(false);
+    }
+  };
+
   return (
-    <header className={classes.header}>
-      <nav className={classes.nav}>
-        <Logo />
-        <ul>
-          {linksData.map((data, index) => {
-            const { title, link, icon } = data;
-            return (
-              <li key={index}>
-                <a href="#">
-                  <Link href={link}>
-                    <span>
-                      <h4>{title}</h4>
-                      <i className={icon}></i>
-                    </span>
-                  </Link>
-                </a>
-              </li>
-            );
-          })}
-          <li>
-            <GreenButton>Boka nu</GreenButton>
+    <div className={classes.header}>
+      <div className={classes.content}>
+        <div className={classes.links}>
+          <ul>
+            {linksData.map((data, index) => {
+              const { title, link } = data;
+              return (
+                <li key={index}>
+                  <Link href={link}>{title}</Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        <ul onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+          <li className={classes.extra}>
+            <Link href="/om-oss">Om oss</Link>
+            <i className="fas fa-angle-down"></i>
           </li>
+          <div className={active ? classes.activeDropdown : null}>
+            <ul>
+              {active
+                ? dropdownData.map((data, index) => {
+                    const { title, link } = data;
+                    return (
+                      <li onClick={() => setActive(false)} key={index}>
+                        <i className="fas fa-angle-right"></i>
+                        <Link href={link}>{title}</Link>
+                      </li>
+                    );
+                  })
+                : null}
+            </ul>
+          </div>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </div>
   );
 };
 

@@ -8,7 +8,6 @@ export const linksData = [
     title: "Kiropraktik",
     link: "/kiropraktik",
   },
-
   {
     title: "Massage",
     link: "/massage",
@@ -16,16 +15,29 @@ export const linksData = [
   {
     title: "Behandlingsmetoder",
     link: "/behandlingsmetoder",
-    icon: "fas fa-angle-down",
-  },
-  {
-    title: "Om oss",
-    link: "/om-oss",
-    icon: "fas fa-angle-down",
   },
   {
     title: "Kontakt",
     link: "/kontakt",
+  },
+];
+
+export const dropdownData = [
+  {
+    title: "Om oss",
+    link: "/om-oss",
+  },
+  {
+    title: "Företag",
+    link: "/foretag",
+  },
+  {
+    title: "Kiropraktik",
+    link: "/kiropraktik",
+  },
+  {
+    title: "Sjukvårdsförsäkring",
+    link: "/sjukvardsforsakring",
   },
 ];
 
