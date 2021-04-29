@@ -11,23 +11,13 @@ const index = () => {
       </div>
       <div className={classes.content}>
         {treatmentsData.map((data, index) => {
-          const {
-            title,
-            subtitle,
-            text,
-            secondText,
-            secondTitle,
-            thirdText,
-          } = data;
+          const { title, subtitle, text } = data;
           return (
             <Companys
               key={index}
               title={title}
               subtitle={subtitle}
               text={text}
-              secondText={secondText}
-              secondTitle={secondTitle}
-              thirdText={thirdText}
             />
           );
         })}
