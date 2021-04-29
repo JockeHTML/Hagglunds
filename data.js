@@ -307,3 +307,89 @@ export const softpartsData = [
     text: "Information kommer inom kort...",
   },
 ];
+
+export const massageEducationData = [
+  {
+    text: "Välbefinnandet ökar, stress minskar",
+  },
+  {
+    text: "Immunförsvaret stärks",
+  },
+  {
+    text: "Blod- och lymfcirkulationen förbättras",
+  },
+  {
+    text: "Snabbare återhämtning",
+  },
+];
+
+export const massageListTextData = [
+  {
+    text: "Spända och trötta muskler",
+  },
+  {
+    text: "Ont i nacke/axlar/rygg",
+  },
+  {
+    text: "Tränat hårt och vill ha snabbare återhämtning",
+  },
+  {
+    text: "Skadat dig och är i rehabiliteringsfas",
+  },
+  {
+    text: "Behov av att koppla av efter vardagens stress",
+  },
+];
+
+export const massageEducationData2 = [
+  {
+    text: "Feber, infektion",
+  },
+  {
+    text: "Akut inflammation",
+  },
+  {
+    text: "Akuta skador",
+  },
+  {
+    text: "Färska frakturer",
+  },
+  {
+    text: "Kraftiga åderbråck, blodpropp, åderförkalkning",
+  },
+  {
+    text: "Hjärt- och kärlsjukdomar",
+  },
+  {
+    text: "Diskbråck",
+  },
+  {
+    text: "Tumörer/cancer",
+  },
+];
+
+export const shockwaveData = [
+  {
+    title: "Stötvågsbehandling",
+    subtitle:
+      "Stötvågsbehandling, eller Shockwave therapy som det också kallas, är en väl beprövad och vetenskapligt bevisad behandlingsmetod som ger god effekt på en mängd skador och besvär i kroppens senor och muskler.",
+    text:
+      "Metoden som beskrivs här är rESWT (radial Extracorporeal Shockwave Therapy)  eller RPW (radial pressure wave) alltså radial tryckvågs- eller stötvågsbehandling.  Med hjälp av komprimerad luft rör sig en projektil fram och tillbaka i ett rör. Då bildas rörelseenergi som då den kommer i kontakt med transmittorn omvandlas till akustisk energi. Den akustiska energin fortplantas därefter ner i vävnaden.  Vanligtvis ligger penetrationsdjupet på mellan 1- 5 cm.",
+  },
+  {
+    secondTitle: "Behandlingen",
+    secondText:
+      "Det är samspelet mellan nervsystemet som är kroppens kommunikations- och kontrollsystem, och ryggradens funktion. Detta samspel utgör underlaget för kiropraktik. Den kiropraktiska justeringen påverkar en leds funktion och via nervsystemet därmed även muskulaturens funktion. När en led separeras snabbt som vid en del kiropraktiska justeringar ändras trycket inne i leden. Detta kan ibland resultera i att en gasbubbla bildas, expanderar och brister. Detta ljud är vad patienten uppfattar som ”knaket”, det är alltså inga ben som flyttas eller går sönder.",
+  },
+];
+
+export const shockwaveListData = [
+  {
+    text:
+      "Fokuserad stötvåg vilket innebär hög energi som går djupt ner i vävnaden och fokuseras i en specifik punkt",
+  },
+  {
+    text:
+      "Radial stötvåg/tryckvåg vilket ger konformad spridning av energi ner i vävnaden med högst energitäthet precis i huden.",
+  },
+];

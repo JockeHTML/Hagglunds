@@ -9,19 +9,9 @@
   padding: 0 1rem;
 }
 
-.massageText ul {
+.listText ul {
   text-decoration: none;
   padding: 0;
-}
-
-.massageText li {
-  display: flex;
-  align-items: center;
-}
-
-.massageText i {
-  margin-right: 5px;
-  color: var(--lightblue);
 }
 
 .massageText span {

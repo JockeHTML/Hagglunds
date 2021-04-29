@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./MassageText.module.css";
+import { massageListTextData } from "../../data";
+import ListText from "./ListText";
 
 const AboutText = () => {
   return (
@@ -26,29 +28,14 @@ const AboutText = () => {
         vilket ger en smärtlindrande effekt.
       </p>
       <br />
-      <h2>För dig som har</h2>
-      <ul>
-        <li>
-          <i className="fas fa-angle-right"></i>
-          <p>Spända och trötta muskler</p>
-        </li>
-        <li>
-          <i className="fas fa-angle-right"></i>
-          <p>Ont i nacke/axlar/rygg</p>
-        </li>
-        <li>
-          <i className="fas fa-angle-right"></i>
-          <p>Tränat hårt och vill ha snabbare återhämtning</p>
-        </li>
-        <li>
-          <i className="fas fa-angle-right"></i>
-          <p>Skadat dig och är i rehabiliteringsfas</p>
-        </li>
-        <li>
-          <i class="fas fa-angle-right"></i>
-          <p>Behov av att koppla av efter vardagens stress</p>
-        </li>
-      </ul>
+      <div className={classes.listText}>
+        <h2>För dig som har</h2>
+        <ul>
+          {massageListTextData.map((data, index) => {
+            return <ListText key={index} text={data.text} />;
+          })}
+        </ul>
+      </div>
     </div>
   );
 };
