@@ -355,7 +355,13 @@ export const massageEducationData2 = [
     text: "Färska frakturer",
   },
   {
-    text: "Kraftiga åderbråck, blodpropp, åderförkalkning",
+    text: "Kraftiga åderbråck",
+  },
+  {
+    text: "Blodpropp",
+  },
+  {
+    text: "Åderförkalkning",
   },
   {
     text: "Hjärt- och kärlsjukdomar",
@@ -379,17 +385,10 @@ export const shockwaveData = [
   {
     secondTitle: "Behandlingen",
     secondText:
-      "Det är samspelet mellan nervsystemet som är kroppens kommunikations- och kontrollsystem, och ryggradens funktion. Detta samspel utgör underlaget för kiropraktik. Den kiropraktiska justeringen påverkar en leds funktion och via nervsystemet därmed även muskulaturens funktion. När en led separeras snabbt som vid en del kiropraktiska justeringar ändras trycket inne i leden. Detta kan ibland resultera i att en gasbubbla bildas, expanderar och brister. Detta ljud är vad patienten uppfattar som ”knaket”, det är alltså inga ben som flyttas eller går sönder.",
-  },
-];
-
-export const shockwaveListData = [
-  {
-    text:
-      "Fokuserad stötvåg vilket innebär hög energi som går djupt ner i vävnaden och fokuseras i en specifik punkt",
+      "Behandlingen är tidseffektiv och omfattar vanligtvis 1000-4000 slag beroende på område och indikation. Frekvensen är ofta 3-6 behandlingar med 5-10 dagars mellanrum. Förbättring ses omedelbart alternativt efter 3-4 behandlingar. Eventuella biverkningar är initiellt ökad smärta, rodnad, svullnad,  hematom och petekier . Upprepa inte behandling förrän eventuella biverkningar försvunnit.",
   },
   {
-    text:
-      "Radial stötvåg/tryckvåg vilket ger konformad spridning av energi ner i vävnaden med högst energitäthet precis i huden.",
+    thirdText:
+      "Lämplig för en rad vanliga och svårbehandlade diagnoser. Ingen lokalbedövning krävs. Relativt smärtfri behandling. Mycket goda läkningsresultat med bland annat smärtfrihet och förbättrad ledrörlighet som ökar livskvaliteten.    ",
   },
 ];
