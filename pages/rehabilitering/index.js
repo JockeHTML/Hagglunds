@@ -5,6 +5,7 @@ import { rehabData } from "../../data";
 import Link from "next/link";
 import BlueButton from "../../components/ui/BlueButton";
 import GreenButton from "../../components/ui/GreenButton";
+import CompanyImage from "../../components/Companys/CompanyImage";
 
 const index = () => {
   return (
@@ -38,6 +39,7 @@ const index = () => {
             />
           );
         })}
+        <CompanyImage />
         <div className={classes.buttons}>
           <Link passHref href="/kontakt">
             <a>

@@ -14,15 +14,12 @@
   margin-bottom: 10px;
 }
 
-.card i {
-  margin-top: 5px;
-  margin-left: 3px;
-}
-
 .buttons a {
   color: var(--green);
-  display: flex;
-  align-items: center;
+}
+
+.buttons i {
+  padding-left: 3px;
 }
 
 .buttons {
