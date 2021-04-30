@@ -31,7 +31,8 @@
   width: 30%;
 }
 
-.text {
+.text,
+.laserText {
   padding: 0 1rem;
   display: flex;
   width: 70%;
@@ -41,6 +42,10 @@
 .text div:nth-child(2),
 .text div:nth-child(4),
 .text div:nth-child(5) {
+  padding-top: 2rem;
+}
+
+.laserText div:nth-child(2) {
   padding-top: 2rem;
 }
 
@@ -66,11 +71,16 @@
   flex-direction: column;
 }
 
+.images {
+  width: 60%;
+  padding: 0 1.5rem var(--padding8) 1.5rem;
+}
+
 .content {
   display: flex;
   width: 60%;
   margin: auto;
-  padding: 0 1.5rem var(--padding8) 1.5rem;
+  padding: 0 1.5rem;
   justify-content: center;
 }
 

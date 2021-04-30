@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "../../styles/stotvagsbehandling.module.css";
 import Companys from "../../components/Companys/Companys";
-import { shockwaveData } from "../../data";
-import { shockwaveSideListData } from "../../data";
+import { laserData } from "../../data";
+import { laserSideListData } from "../../data";
 import Link from "next/link";
 import BlueButton from "../../components/ui/BlueButton";
 import GreenButton from "../../components/ui/GreenButton";
@@ -13,14 +13,14 @@ const index = () => {
   return (
     <div className={classes.foretag}>
       <div className={classes.topImage}>
-        <h1>Stötvågsbehandling</h1>
+        <h1>Terapeutisk Laser</h1>
       </div>
       <h1>
         Hur <span>fungerar</span> det?
       </h1>
       <div className={classes.content}>
-        <div className={classes.text}>
-          {shockwaveData.map((data, index) => {
+        <div className={classes.laserText}>
+          {laserData.map((data, index) => {
             const { title, subtitle, text } = data;
             return (
               <Companys
@@ -47,7 +47,7 @@ const index = () => {
         <div className={classes.sideText}>
           <h2>För vem?</h2>
           <ul>
-            {shockwaveSideListData.map((data, index) => {
+            {laserSideListData.map((data, index) => {
               return <ListText key={index} text={data.text} />;
             })}
           </ul>

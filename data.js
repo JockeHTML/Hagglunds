@@ -438,3 +438,60 @@ export const shockwaveSideListData = [
     text: "Trapezius myalgi",
   },
 ];
+
+export const laserData = [
+  {
+    title: "Terapeutisk Laser",
+    text:
+      "Terapeutisk laser används i första hand för att reducera smärta och inflammation, samt för att främja den läkande processen i den skadade eller påverkade vävnaden.",
+  },
+  {
+    title: "Behandling",
+    text:
+      "Det finns många olika indikationer med vetenskapligt stöd, här redovisas några exempel gällande besvär lokaliserade till rörelseapparaten.    ",
+  },
+  {
+    title: "Inte för dig",
+    text:
+      "Några absoluta kontraindikationer för laserbehandling finns egentligen inte.  ",
+  },
+];
+
+export const laserSideListData = [
+  {
+    text: "Hälsporre ",
+  },
+  {
+    text: "Tennisarmbåge ",
+  },
+  {
+    text: "Golfarmbåge ",
+  },
+  {
+    text: "Artros",
+  },
+  {
+    text: "Inflammation ",
+  },
+  {
+    text: "Hopparknä",
+  },
+  {
+    text: "Löparknä ",
+  },
+  {
+    text: "Led smärta",
+  },
+  {
+    text: "Karpaltunnelsyndrom ",
+  },
+  {
+    text: "Reumatiska tillstånd",
+  },
+  {
+    text: "Nacksmärta ",
+  },
+  {
+    text: "Svullnader",
+  },
+];

@@ -8,7 +8,7 @@ import Collapse from "@material-ui/core/Collapse";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 280,
+    maxWidth: 300,
     borderRadius: "3px",
     padding: "0",
     margin: "0 1rem 2rem 1rem",

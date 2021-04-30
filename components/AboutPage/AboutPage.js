@@ -15,6 +15,18 @@ const AboutPage = () => {
         <AboutText />
         <EducationText />
       </div>
+      <div className={classes.buttons}>
+        <Link passHref href="/kontakt">
+          <a>
+            <GreenButton>Kontakt</GreenButton>
+          </a>
+        </Link>
+        <Link passHref href="/behandlingsmetoder">
+          <a>
+            <BlueButton>Tjänster</BlueButton>
+          </a>
+        </Link>
+      </div>
       <div className={classes.staff}>
         <h1>
           Vi som <span style={{ color: "var(--green)" }}>jobbar</span> på
@@ -35,18 +47,6 @@ const AboutPage = () => {
               />
             );
           })}
-        </div>
-        <div className={classes.buttons}>
-          <Link passHref href="/kontakt">
-            <a>
-              <GreenButton>Kontakt</GreenButton>
-            </a>
-          </Link>
-          <Link passHref href="/behandlingsmetoder">
-            <a>
-              <BlueButton>Tjänster</BlueButton>
-            </a>
-          </Link>
         </div>
       </div>
     </div>

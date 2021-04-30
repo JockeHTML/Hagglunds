@@ -1,15 +1,13 @@
 .aboutPage {
   display: flex;
   padding: var(--padding8) 1.5rem;
-  justify-content: center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
   width: 60%;
   display: flex;
+  margin: auto;
 }
 
 .staff {
@@ -18,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 100%;
 }
 
 .staffContent {
@@ -30,7 +28,9 @@
 
 .buttons {
   display: flex;
-  margin-top: 1rem;
+  padding: 3rem 0 0 1rem;
+  width: 60%;
+  margin: auto;
 }
 
 @media (max-width: 768px) {

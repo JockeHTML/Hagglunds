@@ -33,7 +33,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   margin: auto;
   padding: var(--padding8) 1.5rem 3rem 1.5rem;
 }
