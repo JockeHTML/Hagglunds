@@ -29,7 +29,6 @@ const index = () => {
             />
           );
         })}
-        <CompanyImage />
         <div className={classes.buttons}>
           <Link passHref href="/kontakt">
             <a>
@@ -41,6 +40,9 @@ const index = () => {
               <BlueButton>Om oss</BlueButton>
             </a>
           </Link>
+        </div>
+        <div className={classes.rehabImages}>
+          <CompanyImage />
         </div>
       </div>
     </div>

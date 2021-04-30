@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.companyImage span {
+  color: var(--green);
+}
+
 .content {
   display: flex;
 }

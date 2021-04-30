@@ -8,7 +8,7 @@ const Advantages = () => {
   return (
     <div className={classes.advantages}>
       <h1>
-        Varför välja <span style={{ color: "var(--green)" }}>Hägglunds?</span>
+        Varför välja <span>Hägglunds?</span>
       </h1>
       <div className={classes.content}>
         <Text />

@@ -7,6 +7,10 @@
   margin: auto;
 }
 
+.advantages span {
+  color: var(--green);
+}
+
 .content {
   display: flex;
 }

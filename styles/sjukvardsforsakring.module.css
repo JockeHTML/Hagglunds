@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.sjukvardsforsakring div:nth-child(3) {
+  padding-top: 2rem;
+}
+
 .content span {
   color: var(--green);
 }

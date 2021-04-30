@@ -17,6 +17,10 @@
   width: 30%;
 }
 
+.about span {
+  color: var(--green);
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;

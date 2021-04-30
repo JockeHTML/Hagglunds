@@ -7,8 +7,7 @@ const About = () => {
   return (
     <div className={classes.about}>
       <h1>
-        Välj <span style={{ color: "var(--green)" }}>Hägglunds</span>{" "}
-        Kiropraktik & Rehab
+        Välj <span>Hägglunds</span> Kiropraktik & Rehab
       </h1>
       <div className={classes.content}>
         <Image />

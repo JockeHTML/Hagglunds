@@ -4,7 +4,9 @@ import classes from "./CompanyImage.module.css";
 const CompanyImage = () => {
   return (
     <div className={classes.companyImage}>
-      <h2>Vanliga behandlingsmetoder</h2>
+      <h1>
+        Vanligt <span>använda</span> behandlingar
+      </h1>
       <div className={classes.content}>
         <div className={classes.card}>
           <img src="./images/bg2.jpg" alt="" />

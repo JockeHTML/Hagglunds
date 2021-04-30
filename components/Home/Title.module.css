@@ -6,6 +6,10 @@
   color: var(--white);
 }
 
+.title span {
+  color: var(--green);
+}
+
 @media (max-width: 768px) {
   .title h1 {
     width: 75%;

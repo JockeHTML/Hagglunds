@@ -23,6 +23,10 @@
   padding: var(--padding8) 1.5rem 3rem 1.5rem;
 }
 
+.content div:nth-child(2) {
+  padding-top: 2rem;
+}
+
 @media (max-width: 768px) {
   .content {
     width: 100%;

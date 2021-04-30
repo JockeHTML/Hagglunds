@@ -5,8 +5,7 @@ const Title = () => {
   return (
     <div className={classes.title}>
       <h1>
-        Vi är <span style={{ color: "var(--green)" }}>proffs</span> på allt inom
-        Kiropraktik och Rehab
+        Vi är <span>proffs</span> på allt inom Kiropraktik och Rehab
       </h1>
       <p>
         Hägglunds Kiropraktik & Rehab AB har som målsättning att erbjuda

@@ -18,6 +18,18 @@
   padding-top: 10px;
 }
 
+.content div:nth-child(3) {
+  padding-top: 2rem;
+}
+
+.hvlaImages div:nth-child(3) {
+  padding-top: 0;
+}
+
+.rehabImages div:nth-child(3) {
+  padding-top: 0;
+}
+
 .topImage h1 {
   padding: 0 1.5rem;
   color: var(--white);
