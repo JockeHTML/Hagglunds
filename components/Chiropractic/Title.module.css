@@ -10,3 +10,12 @@
   display: flex;
   margin-top: 3rem;
 }
+
+@media (max-width: 768px) {
+  .title {
+    width: 100%;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

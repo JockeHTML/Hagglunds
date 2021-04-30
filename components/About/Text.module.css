@@ -8,9 +8,6 @@
 .buttons {
   display: flex;
   margin-top: 3rem;
-}
-
-.buttons {
   padding: 0 2rem;
 }
 
@@ -36,9 +33,6 @@
   }
   .content h2 {
     width: 100%;
-  }
-  .buttons {
-    justify-content: center;
   }
 }
 

@@ -92,9 +92,25 @@
 @media (max-width: 768px) {
   .content {
     width: 100%;
+    flex-direction: column;
   }
   .topImage h1 {
     font-size: var(--size8);
+  }
+  .buttons {
+    justify-content: center;
+  }
+  .text,
+  .laserText {
+    width: 100%;
+    padding: 0;
+  }
+  .sideText {
+    width: 100%;
+    padding: 0;
+  }
+  .images {
+    width: 100%;
   }
 }
 

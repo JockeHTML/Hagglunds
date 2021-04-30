@@ -50,6 +50,9 @@
   .topImage h1 {
     font-size: var(--size8);
   }
+  .buttons {
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

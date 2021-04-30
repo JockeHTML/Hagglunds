@@ -75,6 +75,9 @@
     display: none;
   }
   .header {
+    display: none;
+  }
+  .header {
     flex-direction: flex-start;
   }
 }
