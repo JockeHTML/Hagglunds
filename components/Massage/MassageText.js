@@ -2,6 +2,9 @@ import React from "react";
 import classes from "./MassageText.module.css";
 import { massageListTextData } from "../../data";
 import ListText from "./ListText";
+import BlueButton from "../ui/BlueButton";
+import GreenButton from "../ui/GreenButton";
+import Link from "next/link";
 
 const AboutText = () => {
   return (
@@ -27,6 +30,7 @@ const AboutText = () => {
         av lugn och harmoni ökar, men även en frisättning av endorfiner sker,
         vilket ger en smärtlindrande effekt.
       </p>
+
       <br />
       <div className={classes.listText}>
         <h2>För dig som har</h2>
@@ -35,6 +39,18 @@ const AboutText = () => {
             return <ListText key={index} text={data.text} />;
           })}
         </ul>
+      </div>
+      <div className={classes.buttons}>
+        <Link passHref href="/kontakt">
+          <a>
+            <GreenButton>Boka</GreenButton>
+          </a>
+        </Link>
+        <Link passHref href="/om-oss">
+          <a>
+            <BlueButton>Kontakt</BlueButton>
+          </a>
+        </Link>
       </div>
     </div>
   );

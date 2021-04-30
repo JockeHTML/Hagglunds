@@ -3,6 +3,10 @@ import classes from "../../styles/behandlingsmetoder.module.css";
 import Products from "../../components/Products/Products";
 import Companys from "../../components/Companys/Companys";
 import { treatmentsData } from "../../data";
+import BlueButton from "../../components/ui/BlueButton";
+import GreenButton from "../../components/ui/GreenButton";
+import Link from "next/link";
+
 const index = () => {
   return (
     <div className={classes.behandlingsbetoder}>
@@ -21,7 +25,20 @@ const index = () => {
             />
           );
         })}
+        <div className={classes.buttons}>
+          <Link passHref href="/boka">
+            <a>
+              <GreenButton>Boka</GreenButton>
+            </a>
+          </Link>
+          <Link passHref href="/kontakt">
+            <a>
+              <BlueButton>Kontakt</BlueButton>
+            </a>
+          </Link>
+        </div>
       </div>
+
       <Products />
     </div>
   );

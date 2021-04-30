@@ -1,5 +1,8 @@
 import React from "react";
 import classes from "./Title.module.css";
+import BlueButton from "../ui/BlueButton";
+import GreenButton from "../ui/GreenButton";
+import Link from "next/link";
 
 const Title = () => {
   return (
@@ -34,6 +37,18 @@ const Title = () => {
         På www.kiropraktik.com har Kiropraktisk Föreningen i Sverige gjort en
         översikt kring detta.
       </p>
+      <div className={classes.buttons}>
+        <Link passHref href="/kontakt">
+          <a>
+            <GreenButton>Boka</GreenButton>
+          </a>
+        </Link>
+        <Link passHref href="/om-oss">
+          <a>
+            <BlueButton>Kontakt</BlueButton>
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };

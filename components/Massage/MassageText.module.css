@@ -9,6 +9,11 @@
   padding: 0 1rem;
 }
 
+.buttons {
+  display: flex;
+  margin-top: 3rem;
+}
+
 .listText ul {
   text-decoration: none;
   padding: 0;

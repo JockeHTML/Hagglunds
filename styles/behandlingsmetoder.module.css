@@ -16,11 +16,14 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 50%;
-  align-items: center;
   margin: auto;
   padding: var(--padding8) 1.5rem 3rem 1.5rem;
+}
+
+.buttons {
+  margin-top: 3rem;
+  display: flex;
 }
 
 .content div:nth-child(2) {
