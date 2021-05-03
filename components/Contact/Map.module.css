@@ -10,4 +10,7 @@
   .map {
     padding: 0;
   }
+  .text {
+    padding-top: 2rem;
+  }
 }

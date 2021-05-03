@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className={classes.contact}>
       <h1>
-        <span>Sundsvalls</span> kontoret
+        Kontakta <span>någon</span> av våra kliniker
       </h1>
       <div className={classes.sundsvall}>
         <div className={classes.content}>
@@ -25,9 +25,7 @@ const Contact = () => {
         </div>
         <Map />
       </div>
-      <h1>
-        <span>Östersunds</span> kontoret
-      </h1>
+
       <div className={classes.ostersund}>
         <div className={classes.content}>
           <ul>
