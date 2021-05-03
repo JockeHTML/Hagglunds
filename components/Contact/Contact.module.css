@@ -39,3 +39,15 @@
 .content div:nth-child(4) {
   border-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  .sundsvall {
+    flex-direction: column;
+  }
+  .ostersund {
+    flex-direction: column;
+  }
+  .contact {
+    width: 100%;
+  }
+}

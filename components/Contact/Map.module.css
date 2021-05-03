@@ -5,3 +5,9 @@
 .text {
   margin-bottom: 1.3rem;
 }
+
+@media (max-width: 768px) {
+  .map {
+    padding: 0;
+  }
+}
