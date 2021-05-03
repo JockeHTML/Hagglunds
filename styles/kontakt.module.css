@@ -1,3 +1,12 @@
+.content {
+  padding: var(--padding8) 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .topImage {
   height: 250px;
   background-position: center;
@@ -11,17 +20,4 @@
 .topImage h1 {
   color: var(--white);
   margin: 0;
-}
-
-.kiropraktik h1 {
-  margin: var(--padding8) 0 var(--padding4) 0;
-  text-align: center;
-}
-
-.kiropraktik span {
-  color: var(--green);
-}
-
-.content {
-  padding-bottom: 3rem;
 }

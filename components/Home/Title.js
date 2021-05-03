@@ -7,6 +7,7 @@ const Title = () => {
       <h1>
         Vi är <span>proffs</span> på allt inom Kiropraktik och Rehab
       </h1>
+
       <p>
         Hägglunds Kiropraktik & Rehab AB har som målsättning att erbjuda
         effektiv vård av hög kvalitet med den enskilda individen i fokus, detta

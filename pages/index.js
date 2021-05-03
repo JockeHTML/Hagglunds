@@ -4,6 +4,7 @@ import HomePage from "../components/Home/HomePage";
 import Products from "../components/Products/Products";
 import About from "../components/About/About";
 import Slider from "../components/Slider/Slider";
+import BigSlider from "../components/BigSlider/BigSlider";
 import Advantages from "../components/Advantages/Advantages";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <main>
         <HomePage />
         <About />
+        <BigSlider />
         <Products />
         <Slider />
         <Advantages />

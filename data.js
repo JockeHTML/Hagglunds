@@ -108,7 +108,34 @@ export const contactData = [
     text: "060-12 33 12",
     icon: "fas fa-phone-alt",
   },
+  {
+    title: "E-post",
+    text: "andreas@legkiropraktik.se",
+    icon: "fas fa-phone-alt",
+  },
+  {
+    title: "Öppettider",
+    text: "Mån - Fredag: 08 - 17 ",
+    icon: "fas fa-map-marker-alt",
+  },
+];
 
+export const contactDataThree = [
+  {
+    title: "Address",
+    text: "Hagvägen 16, 831 48 Östersund",
+    icon: "fas fa-map-marker-alt",
+  },
+  {
+    title: "Telefon",
+    text: "063-12 54 04",
+    icon: "fas fa-phone-alt",
+  },
+  {
+    title: "E-post",
+    text: "anton@legkiropraktik.se",
+    icon: "fas fa-phone-alt",
+  },
   {
     title: "Öppettider",
     text: "Mån - Fredag: 08 - 17 ",

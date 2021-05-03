@@ -2,7 +2,8 @@
   color: var(--white);
   margin-bottom: 1rem;
 }
-.title p {
+.title p,
+.title h4 {
   color: var(--white);
 }
 

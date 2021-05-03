@@ -18,7 +18,7 @@
   flex-direction: column;
   width: 60%;
   margin: auto;
-  padding: var(--padding8) 1.5rem 3rem 1.5rem;
+  padding: var(--padding8) 1.5rem var(--padding8) 1.5rem;
 }
 
 .buttons {

@@ -6,7 +6,6 @@ const Image = () => {
     <div className={classes.image}>
       <div className={classes.content}>
         {" "}
-        <img src="../images/bg4.jpg" alt="Om oss" />
         <img src="../images/bg3.jpg" alt="Om oss" />
       </div>
     </div>

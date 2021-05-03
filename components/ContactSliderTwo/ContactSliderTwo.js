@@ -13,7 +13,6 @@ const ContactSliderTwo = () => {
               <span>
                 <i className={icon}></i>
               </span>
-
               <span>
                 <h4>{title}</h4>
                 <p>{text}</p>

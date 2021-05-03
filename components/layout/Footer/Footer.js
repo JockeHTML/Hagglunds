@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import Contact from "./Contact";
-import ContactSlider from "../../ContactSlider/ContactSlider";
 import ContactSliderTwo from "../../ContactSliderTwo/ContactSliderTwo";
 
 const Footer = () => {

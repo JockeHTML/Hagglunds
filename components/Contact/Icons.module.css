@@ -1,0 +1,39 @@
+.contact {
+  background-color: transparent;
+  display: flex;
+  background-color: var(--blue);
+}
+
+.icons {
+  margin: 0 2rem;
+  width: 250px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.text {
+  padding: 2rem 0;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+}
+
+.contact h4 {
+  margin: 0;
+  color: var(--white);
+}
+.contact p {
+  font-weight: 400;
+  margin: 0;
+  color: var(--white);
+}
+
+.icon i {
+  color: var(--lightblue);
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}

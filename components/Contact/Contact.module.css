@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  width: 60%;
+  height: auto;
+  flex-direction: column;
+}
+
+.sundsvall {
+  display: flex;
+  margin-bottom: var(--padding4);
+}
+
+.ostersund {
+  display: flex;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact span {
+  color: var(--green);
+}
+
+.content {
+  background-color: var(--blue);
+  border-radius: 3px;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content div {
+  border-bottom: 0.5px solid var(--lightblue);
+}
+
+.content div:nth-child(4) {
+  border-bottom: 0;
+}

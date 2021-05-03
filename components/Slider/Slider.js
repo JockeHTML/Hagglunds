@@ -7,21 +7,21 @@ const Slider = () => {
   return (
     <div className={classes.slider}>
       <div className={classes.content}>
-        <h3>
+        <h2>Legitimerade Kiropraktorer</h2>
+        <p>
           Kiropraktorerna som arbetar hos Hägglunds är alla legitimerade av
           Socialstyrelsen
-        </h3>
+        </p>
+        <div className={classes.buttons}>
+          <Link passHref href="/om-oss">
+            <a>
+              <GreenButton>Läs mer</GreenButton>
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Slider;
-
-/* <div className={classes.buttons}>
-          <Link passHref href="/om-oss">
-            <a>
-              <GreenButton>Läs mer</GreenButton>
-            </a>
-          </Link>
-        </div>*/
