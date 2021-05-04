@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Text.module.css";
 import BlueButton from "../ui/BlueButton";
 import GreenButton from "../ui/GreenButton";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Text = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
-    <div className={classes.text}>
+    <div data-aos="fade-right" className={classes.text}>
       <div className={classes.content}>
         <h2>Hägglunds historia</h2>
         <p>

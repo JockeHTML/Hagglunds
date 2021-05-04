@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import { productsData } from "../../data";
 import classes from "./Card.module.css";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Card() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <Grid lg={6} container item spacing={4} justify="center">
+    <Grid data-aos="fade-up" lg={6} container item spacing={4} justify="center">
       {productsData.map((data, index) => {
         const { title, text, icon, link } = data;
         return (

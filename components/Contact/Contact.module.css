@@ -43,6 +43,66 @@
   border-bottom: 0;
 }
 
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.switch h3 {
+  margin-bottom: 0;
+}
+
+.switch span {
+  margin-right: 1rem;
+  width: 120px;
+}
+
+.btn {
+  margin-bottom: 1rem;
+}
+
+.btn input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.btn label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 60px;
+  height: 30px;
+  background: var(--blue);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.btn label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.btn input:checked + label {
+  background: var(--blue);
+}
+
+.btn input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.btn label:active:after {
+  width: 130px;
+}
+
 @media (max-width: 768px) {
   .sundsvall {
     flex-direction: column;

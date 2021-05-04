@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Card.module.css";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Card = ({ title, text, img }) => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
-    <div className={classes.card}>
+    <div data-aos="fade-left" className={classes.card}>
       <div className={classes.image}>
         <img src={img} alt="" />
       </div>
