@@ -8,14 +8,14 @@
   align-items: center;
 }
 
-.topImage h1 {
-  color: var(--white);
-  margin: 0;
-}
-
 .kiropraktik h1 {
   margin: var(--padding8) 0 var(--padding4) 0;
   text-align: center;
+}
+
+.topImage h1 {
+  color: var(--white);
+  margin: 0;
 }
 
 .kiropraktik span {

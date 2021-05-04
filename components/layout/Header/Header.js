@@ -26,6 +26,8 @@ const Header = () => {
 
   return (
     <div className={classes.header}>
+      <Logo />
+
       <div className={classes.content}>
         <div className={classes.links}>
           <ul>
@@ -62,7 +64,6 @@ const Header = () => {
             </ul>
           </div>
         </ul>
-
         <Link passHref href="/kontakt">
           <a>
             <GreenButton>Boka</GreenButton>

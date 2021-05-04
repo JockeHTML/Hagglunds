@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const MapTwo = () => {
   useEffect(() => {
-    Aos.init({ duration: 1250 });
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <div data-aos="fade in" className={classes.map}>
