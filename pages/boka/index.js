@@ -4,7 +4,7 @@ import classes from "../../styles/boka.module.css";
 
 const index = () => {
   return (
-    <div>
+    <div className={classes.boka}>
       <div className={classes.topImage}>
         <h1>Boka</h1>
       </div>

@@ -522,3 +522,102 @@ export const laserSideListData = [
     text: "Svullnader",
   },
 ];
+
+export const appointmentData = [
+  {
+    title: "Fotbäddar Sundsvall",
+    price: "fr. 300:-",
+    text: [
+      {
+        text: "Tidsbokning sker via internet eller via telefon",
+      },
+      {
+        text: "Möjlighet till akuttider nästan dagligen",
+      },
+      {
+        text: "Betalning sker via kort eller kontant",
+      },
+      {
+        text: "Fakturering endast till företag",
+      },
+      {
+        text: "Sen & utebliven avbokning debiteras 400:-",
+      },
+      {
+        text: "Avbokning senast 12 timmar innan",
+      },
+    ],
+  },
+  {
+    title: "Kiropraktor Sundsvall",
+    price: "fr. 680:-",
+    text: [
+      {
+        text: "Tidsbokning via internet eller telefon",
+      },
+      {
+        text: "Möjlighet till akuttider",
+      },
+      {
+        text: "Betalning med kort eller kontant",
+      },
+      {
+        text: "Möjligthet till fakturering",
+      },
+      {
+        text: "Sen & utebliven avbokning debiteras",
+      },
+      {
+        text: "Avbokning senast 12 timmar innan",
+      },
+    ],
+  },
+  {
+    title: "Kiropraktor Östersund",
+    price: "fr. 680:-",
+    text: [
+      {
+        text: "Tidsbokning via internet eller telefon",
+      },
+      {
+        text: "Möjlighet till akuttider",
+      },
+      {
+        text: "Betalning med kort eller kontant",
+      },
+      {
+        text: "Möjligthet till fakturering",
+      },
+      {
+        text: "Sen & utebliven avbokning debiteras",
+      },
+      {
+        text: "Avbokning senast 12 timmar innan",
+      },
+    ],
+  },
+  {
+    title: "Massage Östersund",
+    price: "fr. 450:-",
+    text: [
+      {
+        text: "Tidsbokning via internet eller telefon",
+      },
+      {
+        text: "Möjlighet till akuttider",
+      },
+      {
+        text: "Betalning med kort eller kontant",
+      },
+      {
+        text: "Möjligthet till fakturering",
+      },
+      {
+        text: "Sen & utebliven avbokning debiteras",
+      },
+      {
+        text: "Avbokning senast 12 timmar innan",
+      },
+    ],
+  },
+];

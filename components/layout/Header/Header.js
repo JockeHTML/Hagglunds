@@ -4,6 +4,7 @@ import { linksData } from "../../../data";
 import Link from "next/link";
 import { dropdownData } from "../../../data.js";
 import Logo from "../Logo";
+import GreenButton from "../../ui/GreenButton";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -61,6 +62,12 @@ const Header = () => {
             </ul>
           </div>
         </ul>
+
+        <Link passHref href="/kontakt">
+          <a>
+            <GreenButton>Boka</GreenButton>
+          </a>
+        </Link>
       </div>
     </div>
   );
