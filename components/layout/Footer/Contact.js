@@ -9,6 +9,7 @@ const Contact = () => {
       <About />
       <Links />
       <Links />
+      <Links />
     </div>
   );
 };

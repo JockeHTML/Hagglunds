@@ -13,6 +13,14 @@
   margin: 0;
 }
 
+.content h1 {
+  text-align: center;
+}
+
+.content span {
+  color: var(--green);
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -26,7 +34,7 @@
   display: flex;
 }
 
-.content div:nth-child(2) {
+.content div:nth-child(3) {
   padding-top: 2rem;
 }
 

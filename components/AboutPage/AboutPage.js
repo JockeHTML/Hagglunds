@@ -11,6 +11,12 @@ import GreenButton from "../../components/ui/GreenButton";
 const AboutPage = () => {
   return (
     <div className={classes.aboutPage}>
+      <div className={classes.title}>
+        <h1>
+          {" "}
+          <span>Hägglunds</span> Kiropraktik & Rehab
+        </h1>
+      </div>
       <div className={classes.content}>
         <AboutText />
         <EducationText />
@@ -29,8 +35,7 @@ const AboutPage = () => {
       </div>
       <div className={classes.staff}>
         <h1>
-          Vi som <span style={{ color: "var(--green)" }}>jobbar</span> på
-          Hägglunds
+          Vi som <span>jobbar</span> på Hägglunds
         </h1>
         <div className={classes.staffContent}>
           {staffData.map((data, index) => {

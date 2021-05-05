@@ -10,7 +10,7 @@ const ContactSliderTwo = () => {
           const { title, text, icon } = contact;
           return (
             <li key={index} className={classes.contact}>
-              <span>
+              <span className={classes.icons}>
                 <i className={icon}></i>
               </span>
               <span>

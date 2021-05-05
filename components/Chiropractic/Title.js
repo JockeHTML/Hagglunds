@@ -7,6 +7,7 @@ import Link from "next/link";
 const Title = () => {
   return (
     <div className={classes.title}>
+      <h1>Kiropraktik</h1>
       <h2>Vad är Kiropraktik?</h2>
       <p>
         Kiropraktik är i dag ett primärvårdgivande yrke med unika principer

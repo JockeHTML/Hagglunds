@@ -13,7 +13,9 @@ const index = () => {
       <div className={classes.topImage}>
         <h1>Behandlingsmetoder</h1>
       </div>
+
       <div className={classes.content}>
+        <h1>Behandslingsmetoder</h1>
         {treatmentsData.map((data, index) => {
           const { title, subtitle, text } = data;
           return (

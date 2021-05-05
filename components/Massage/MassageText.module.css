@@ -17,6 +17,8 @@
 .listText ul {
   text-decoration: none;
   padding: 0;
+
+  margin-bottom: 0;
 }
 
 .massageText span {

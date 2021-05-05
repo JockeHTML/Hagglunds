@@ -16,6 +16,9 @@
 
 .sjukvardsforsakring h1 {
   text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sjukvardsforsakring div:nth-child(3) {

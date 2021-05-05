@@ -9,15 +9,10 @@
 .buttons {
   display: flex;
   margin-top: 3rem;
-  padding: 0 2rem;
 }
 
 .content p {
   width: 70%;
-}
-
-.content {
-  padding: 0 2rem;
 }
 
 @media (max-width: 768px) {
@@ -42,13 +37,43 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .buttons {
+    justify-content: start;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .text {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content p {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .text {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content p {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .text {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content p {
+    width: 100%;
+  }
 }

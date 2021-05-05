@@ -13,11 +13,20 @@ export default function Card() {
   }, []);
 
   return (
-    <Grid data-aos="fade-up" lg={6} container item spacing={4} justify="center">
+    <Grid
+      data-aos="fade-up"
+      lg={8}
+      md={11}
+      xl={6}
+      container
+      item
+      spacing={4}
+      justify="center"
+    >
       {productsData.map((data, index) => {
         const { title, text, icon, link } = data;
         return (
-          <Grid key={index} item lg={4}>
+          <Grid key={index} item xs={12} sm={4} md={4} lg={4} xl={4}>
             <Paper className={classes.paper}>
               <img
                 style={{ color: "red" }}

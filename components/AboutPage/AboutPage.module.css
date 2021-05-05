@@ -19,6 +19,15 @@
   width: 100%;
 }
 
+.staff h1 {
+  text-align: center;
+  width: 40%;
+}
+
+.staff span {
+  color: var(--green);
+}
+
 .staffContent {
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +40,20 @@
   padding: 3rem 0 0 1rem;
   width: 60%;
   margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.title span {
+  color: var(--green);
+}
+
+.title h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 @media (max-width: 768px) {

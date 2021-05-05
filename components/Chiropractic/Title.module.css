@@ -11,6 +11,10 @@
   margin-top: 3rem;
 }
 
+.title h1 {
+  margin: 0 0 var(--padding4) 0;
+}
+
 @media (max-width: 768px) {
   .title {
     width: 100%;
