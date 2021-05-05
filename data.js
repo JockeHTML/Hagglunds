@@ -22,6 +22,38 @@ export const linksData = [
   },
 ];
 
+export const footerLinksData = [
+  {
+    title: "Hem",
+    link: "/",
+  },
+
+  {
+    title: "Kiropraktik",
+    link: "/kiropraktik",
+  },
+  {
+    title: "Massage",
+    link: "/massage",
+  },
+  {
+    title: "Behandlingsmetoder",
+    link: "/behandlingsmetoder",
+  },
+  {
+    title: "Om oss",
+    link: "/om-oss",
+  },
+  {
+    title: "Företag",
+    link: "/foretag",
+  },
+  {
+    title: "Sjukvårdsförsäkring",
+    link: "/sjukvardsforsakring",
+  },
+];
+
 export const dropdownData = [
   {
     title: "Om oss",
@@ -164,10 +196,36 @@ export const contactDataTwo = [
     text: "060-12 33 12",
     icon: "fas fa-phone-alt",
   },
+];
+
+export const openingHoursData = [
   {
-    title: "Öppettider",
-    text: "Mån - Fredag: 08 - 17 ",
-    icon: "fas fa-map-marker-alt",
+    title: "Måndag",
+    text: "08 - 17",
+  },
+  {
+    title: "Tisdag",
+    text: "08 - 17",
+  },
+  {
+    title: "Onsdag",
+    text: "08 - 17",
+  },
+  {
+    title: "Torsdag",
+    text: "08 - 17",
+  },
+  {
+    title: "Fredag",
+    text: "08 - 17",
+  },
+  {
+    title: "Lördag",
+    text: "Stängt",
+  },
+  {
+    title: "Söndag",
+    text: "Stängt",
   },
 ];
 

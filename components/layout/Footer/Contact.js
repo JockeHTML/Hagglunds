@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Contact.module.css";
 import About from "./About";
 import Links from "./Links";
+import OpeningHours from "./OpeningHours";
 
 const Contact = () => {
   return (
@@ -9,7 +10,7 @@ const Contact = () => {
       <About />
       <Links />
       <Links />
-      <Links />
+      <OpeningHours />
     </div>
   );
 };
