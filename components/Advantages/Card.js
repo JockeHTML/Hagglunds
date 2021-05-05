@@ -10,7 +10,7 @@ const Card = ({ title, text, img }) => {
   }, []);
 
   return (
-    <div data-aos="fade-left" className={classes.card}>
+    <div data-aos="fade-up" className={classes.card}>
       <div className={classes.image}>
         <img src={img} alt="" />
       </div>

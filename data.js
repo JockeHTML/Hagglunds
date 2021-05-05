@@ -529,22 +529,16 @@ export const appointmentData = [
     price: "fr. 300:-",
     text: [
       {
-        text: "Tidsbokning sker via internet eller via telefon",
+        text: "Valbar behandlingstid, 30, 45 & 60 min",
       },
       {
-        text: "Möjlighet till akuttider nästan dagligen",
+        text: "Priser är angivna inklusive moms",
       },
       {
-        text: "Betalning sker via kort eller kontant",
+        text: "Möjlighet till skräddarsydda företagsavtal",
       },
       {
-        text: "Fakturering endast till företag",
-      },
-      {
-        text: "Sen & utebliven avbokning debiteras 400:-",
-      },
-      {
-        text: "Avbokning senast 12 timmar innan",
+        text: "Möjligthet till fakturering till företagskunder",
       },
     ],
   },
@@ -553,22 +547,16 @@ export const appointmentData = [
     price: "fr. 680:-",
     text: [
       {
-        text: "Tidsbokning via internet eller telefon",
+        text: "Valbar behandlingstid, 30, 45 & 60 min",
       },
       {
-        text: "Möjlighet till akuttider",
+        text: "Priser är angivna inklusive moms",
       },
       {
-        text: "Betalning med kort eller kontant",
+        text: "Möjlighet till skräddarsydda företagsavtal",
       },
       {
-        text: "Möjligthet till fakturering",
-      },
-      {
-        text: "Sen & utebliven avbokning debiteras",
-      },
-      {
-        text: "Avbokning senast 12 timmar innan",
+        text: "Möjligthet till fakturering till företagskunder",
       },
     ],
   },
@@ -577,22 +565,16 @@ export const appointmentData = [
     price: "fr. 680:-",
     text: [
       {
-        text: "Tidsbokning via internet eller telefon",
+        text: "Valbar behandlingstid, 30, 45 & 60 min",
       },
       {
-        text: "Möjlighet till akuttider",
+        text: "Priser är angivna inklusive moms",
       },
       {
-        text: "Betalning med kort eller kontant",
+        text: "Möjlighet till skräddarsydda företagsavtal",
       },
       {
-        text: "Möjligthet till fakturering",
-      },
-      {
-        text: "Sen & utebliven avbokning debiteras",
-      },
-      {
-        text: "Avbokning senast 12 timmar innan",
+        text: "Möjligthet till fakturering till företagskunder",
       },
     ],
   },
@@ -601,22 +583,16 @@ export const appointmentData = [
     price: "fr. 450:-",
     text: [
       {
-        text: "Tidsbokning via internet eller telefon",
+        text: "Valbar behandlingstid, 30, 45 & 60 min",
       },
       {
-        text: "Möjlighet till akuttider",
+        text: "Priser är angivna inklusive moms",
       },
       {
-        text: "Betalning med kort eller kontant",
+        text: "Möjlighet till skräddarsydda företagsavtal",
       },
       {
-        text: "Möjligthet till fakturering",
-      },
-      {
-        text: "Sen & utebliven avbokning debiteras",
-      },
-      {
-        text: "Avbokning senast 12 timmar innan",
+        text: "Möjligthet till fakturering till företagskunder",
       },
     ],
   },

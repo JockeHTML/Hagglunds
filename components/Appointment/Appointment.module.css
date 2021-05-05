@@ -15,7 +15,7 @@
 }
 
 .appointment h4 {
-  margin-bottom: var(--padding4);
+  margin-bottom: 0;
 }
 
 .appointment span {
@@ -45,4 +45,8 @@
 
 .paper img {
   margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
 }

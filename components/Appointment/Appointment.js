@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import List from "./List";
 import Price from "./Price";
 import Button from "./Button";
+import Text from "./Text";
 
 export default function Appointment() {
   useEffect(() => {
@@ -16,13 +17,16 @@ export default function Appointment() {
 
   return (
     <div className={classes.appointment}>
-      <h1>
-        Boka <span>din</span> behandling
-      </h1>
-      <h4>
-        För att boka tid klickar du på länken nedan. Läs igenom nedanstående
-        information först.
-      </h4>
+      <div className={classes.title}>
+        <h1>
+          Boka <span>din</span> behandling
+        </h1>
+        <h4>
+          För att boka tid klickar du på länken nedan. Läs igenom nedanstående
+          information först.
+        </h4>
+      </div>
+      <Text />
       <Grid
         data-aos="fade-up"
         lg={10}

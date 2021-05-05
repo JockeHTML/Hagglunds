@@ -64,7 +64,7 @@ const Header = () => {
             </ul>
           </div>
         </ul>
-        <Link passHref href="/kontakt">
+        <Link passHref href="/boka">
           <a>
             <GreenButton>Boka</GreenButton>
           </a>
