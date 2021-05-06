@@ -15,7 +15,7 @@ const index = () => {
 
       <div className={classes.content}>
         <h1>
-          Hur <span>funkar</span> det?
+          Hur <span>fungerar</span> det?
         </h1>
         {softpartsData.map((data, index) => {
           const { title, subtitle, text } = data;

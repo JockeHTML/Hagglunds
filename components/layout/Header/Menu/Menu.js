@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import classes from "./menu.module.css";
 import { footerLinksData } from "../../../../data";
 import Link from "next/link";
-import Logo from "../../Logo";
 
 const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -15,7 +14,7 @@ const Menu = () => {
         </span>
       ) : (
         <span className={classes.firstIcon}>
-          <i onClick={() => setOpenMenu(!openMenu)} className="fas fa-bars"></i>
+          <i onClick={() => setOpenMenu(true)} className="fas fa-bars"></i>
         </span>
       )}
 

@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 768px) {
+  .title h1 {
+    width: 100%;
+  }
   .content {
     flex-direction: column;
     width: 100%;
@@ -64,6 +67,9 @@
   .staff {
     width: 100%;
     padding: var(--padding8) 0 0 0;
+  }
+  .staff h1 {
+    width: 100%;
   }
   .staffContent {
     padding: 0;

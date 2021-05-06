@@ -78,6 +78,12 @@
   .buttons {
     justify-content: center;
   }
+  .topImage {
+    padding-top: 4rem;
+  }
+  .foretag h1 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

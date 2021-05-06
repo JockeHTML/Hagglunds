@@ -15,7 +15,7 @@ const index = () => {
       </div>
 
       <div className={classes.content}>
-        <h1>Behandslingsmetoder</h1>
+        <h1>Behandling</h1>
         {treatmentsData.map((data, index) => {
           const { title, subtitle, text } = data;
           return (

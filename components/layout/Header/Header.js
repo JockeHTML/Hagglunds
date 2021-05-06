@@ -28,7 +28,6 @@ const Header = () => {
   return (
     <div className={classes.header}>
       <Logo />
-
       <div className={classes.content}>
         <div className={classes.links}>
           <ul>
@@ -65,6 +64,7 @@ const Header = () => {
             </ul>
           </div>
         </ul>
+
         <div className={classes.buttons}>
           <Link passHref href="/boka">
             <a>

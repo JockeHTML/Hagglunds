@@ -31,14 +31,14 @@
   flex-direction: column;
   padding-top: 1rem;
   position: fixed;
-  max-height: none !important;
   width: 100%;
+  height: auto;
   top: 0;
   background-color: var(--white);
 }
 
 .menuOpen ul {
-  margin: 4rem 2rem 0 2rem;
+  margin: 5rem 2rem 0rem 2rem;
   display: flex;
   flex-direction: column;
   border-top: 1px solid var(--lightgrey);
@@ -49,7 +49,7 @@
 }
 
 .menuOpen a {
-  font-size: var(--size5);
+  font-size: var(--size4);
 }
 
 @media (max-width: 768px) {
@@ -68,12 +68,18 @@
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .menuLinks {
+    display: flex;
+  }
   .menu {
     display: flex;
   }
   .firstIcon i,
   .secondIcon i {
+    display: flex;
+  }
+  .firstIcon {
     display: flex;
   }
 }
