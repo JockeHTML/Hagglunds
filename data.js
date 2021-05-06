@@ -41,6 +41,10 @@ export const footerLinksData = [
     link: "/behandlingsmetoder",
   },
   {
+    title: "Kontakt",
+    link: "/kontakt",
+  },
+  {
     title: "Om oss",
     link: "/om-oss",
   },

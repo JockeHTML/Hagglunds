@@ -1,14 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./Map.module.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Map = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
-    <div data-aos="fade in" className={classes.map}>
+    <div className={classes.map}>
       <div className={classes.text}>
         <h2>Kontakta oss i Östersund</h2>
         <p>

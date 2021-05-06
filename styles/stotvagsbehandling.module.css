@@ -45,7 +45,8 @@
   padding-top: 2rem;
 }
 
-.laserText div:nth-child(2) {
+.laserText div:nth-child(2),
+.laserText div:nth-child(3) {
   padding-top: 2rem;
 }
 
@@ -97,14 +98,18 @@
   .topImage h1 {
     font-size: var(--size8);
   }
+  .topImage {
+    padding-top: 4rem;
+  }
   .buttons {
     justify-content: center;
   }
   .text,
   .laserText {
     width: 100%;
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
+
   .sideText {
     width: 100%;
     padding: 0;

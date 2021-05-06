@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./menu.module.css";
+import classes from "./Menu.module.css";
 import { footerLinksData } from "../../../../data";
 import Link from "next/link";
 

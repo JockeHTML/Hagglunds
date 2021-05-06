@@ -26,7 +26,7 @@ const Contact = () => {
         )}
         <div className={classes.btn}>
           <input type="checkbox" id="switch" />
-          <label onClick={() => setClick(!click)} for="switch">
+          <label onClick={() => setClick(!click)} htmlFor="switch">
             Toggle
           </label>
         </div>
