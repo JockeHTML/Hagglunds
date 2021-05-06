@@ -5,6 +5,7 @@ import Link from "next/link";
 import { dropdownData } from "../../../data.js";
 import Logo from "../Logo";
 import GreenButton from "../../ui/GreenButton";
+import Menu from "./Menu/Menu";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -64,12 +65,15 @@ const Header = () => {
             </ul>
           </div>
         </ul>
-        <Link passHref href="/boka">
-          <a>
-            <GreenButton>Boka</GreenButton>
-          </a>
-        </Link>
+        <div className={classes.buttons}>
+          <Link passHref href="/boka">
+            <a>
+              <GreenButton>Boka</GreenButton>
+            </a>
+          </Link>
+        </div>
       </div>
+      <Menu />
     </div>
   );
 };

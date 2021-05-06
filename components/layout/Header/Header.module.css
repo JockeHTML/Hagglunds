@@ -4,6 +4,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -68,18 +69,21 @@
   font-size: 1rem;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
-  .extra {
-    display: none;
-  }
-  .header ul {
+  .content ul {
     display: none;
   }
   .header {
-    display: none;
+    justify-content: space-between;
+    height: 80px;
   }
-  .header {
-    flex-direction: flex-start;
+  .buttons a {
+    display: none;
   }
 }
 
