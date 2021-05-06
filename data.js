@@ -188,6 +188,7 @@ export const contactDataTwo = [
   {
     title: "Telefon",
     text: "063-12 54 04",
+    src: "tel:+4663125404",
     icon: "fas fa-phone-alt",
   },
   {
@@ -198,6 +199,7 @@ export const contactDataTwo = [
   {
     title: "Telefon",
     text: "060-12 33 12",
+    src: "tel:+4660123312",
     icon: "fas fa-phone-alt",
   },
 ];
@@ -420,13 +422,13 @@ export const massageListTextData = [
     text: "Ont i nacke/axlar/rygg",
   },
   {
-    text: "Tränat hårt och vill ha snabbare återhämtning",
+    text: "Vill ha snabb återhämtning",
   },
   {
-    text: "Skadat dig och är i rehabiliteringsfas",
+    text: "Är i rehabiliteringsfas",
   },
   {
-    text: "Behov av att koppla av efter vardagens stress",
+    text: "Vardags stress",
   },
 ];
 

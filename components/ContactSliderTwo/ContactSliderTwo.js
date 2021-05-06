@@ -7,7 +7,7 @@ const ContactSliderTwo = () => {
     <div className={classes.contactSlider}>
       <ul>
         {contactDataTwo.map((contact, index) => {
-          const { title, text, icon } = contact;
+          const { title, text, icon, src } = contact;
           return (
             <li key={index} className={classes.contact}>
               <span className={classes.icons}>
@@ -15,7 +15,9 @@ const ContactSliderTwo = () => {
               </span>
               <span>
                 <h4>{title}</h4>
-                <p>{text}</p>
+                <a href={src}>
+                  <p>{text}</p>
+                </a>
               </span>
             </li>
           );

@@ -1,6 +1,6 @@
 .bigSlider {
   display: flex;
-  height: 600px;
+  height: 500px;
 }
 
 .image {
@@ -19,18 +19,18 @@
 }
 
 .content {
-  padding: var(--padding2) 1.5rem;
+  padding: 6rem 1.5rem;
   width: 55%;
   margin: auto 0 auto 4rem;
 }
 
 .content p,
-.content h1,
+.content h2,
 .content h4 {
   color: var(--white);
 }
 
-.content h1 {
+.content h2 {
   margin-bottom: 1rem;
 }
 
@@ -55,9 +55,9 @@
   .content p {
     text-align: center;
   }
-  .content h1 {
+  .content h2 {
     text-align: center;
-    width: 70%;
+    width: 100%;
   }
   .text {
     width: 100%;
