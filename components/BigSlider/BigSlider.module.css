@@ -51,6 +51,7 @@
     justify-content: center;
     width: 100%;
     margin: auto;
+    padding: var(--padding4) 1.5rem;
   }
   .content p {
     text-align: center;

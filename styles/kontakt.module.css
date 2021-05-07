@@ -21,3 +21,12 @@
   color: var(--white);
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .topImage {
+    padding-top: 4rem;
+  }
+  .content {
+    padding: var(--padding4) 1.5rem;
+  }
+}

@@ -99,6 +99,7 @@
     font-size: var(--size8);
   }
   .topImage {
+    margin-bottom: var(--padding4);
     padding-top: 4rem;
   }
   .buttons {
@@ -109,12 +110,13 @@
     width: 100%;
     padding: 0 0 2rem 0;
   }
-
   .sideText {
     width: 100%;
     padding: 0;
   }
   .images {
+    padding: 0 1.5rem var(--padding4) 1.5rem;
+
     width: 100%;
   }
 }

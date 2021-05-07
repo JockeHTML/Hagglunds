@@ -9,16 +9,16 @@ const BigSlider = () => {
       <div className={classes.image}></div>
       <div className={classes.text}>
         <div className={classes.content}>
-          <h2>Kontakta oss idag</h2>
+          <h2>Boka din tid idag</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
             laudantium repellendus eos fugiat numquam dolorum accusamus delectus
             magni beatae eius.
           </p>
           <div className={classes.buttons}>
-            <Link passHref href="/kontakt">
+            <Link passHref href="/boka">
               <a>
-                <GreenButton>Kontakt</GreenButton>
+                <GreenButton>Boka</GreenButton>
               </a>
             </Link>
           </div>

@@ -30,4 +30,10 @@
   .topImage {
     padding-top: 4rem;
   }
+  .kiropraktik h1 {
+    margin: var(--padding4) 0 var(--padding4) 0;
+  }
+  .content {
+    padding-bottom: 2rem;
+  }
 }

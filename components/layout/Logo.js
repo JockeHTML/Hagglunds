@@ -1,10 +1,15 @@
 import React from "react";
 import classes from "./Logo.module.css";
+import Link from "next/link";
 
 const Logo = () => {
   return (
     <div className={classes.logo}>
-      <img src="./images/Logos/logo.png" alt="" />
+      <Link href="/">
+        <a>
+          <img src="./images/Logos/logo.png" alt="Hägglunds logo" />
+        </a>
+      </Link>
     </div>
   );
 };

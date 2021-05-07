@@ -9,6 +9,7 @@
 @media (max-width: 768px) {
   .map {
     padding: 0;
+    height: 100%;
   }
   .text {
     padding-top: 2rem;

@@ -13,7 +13,7 @@ const index = () => {
   return (
     <div className={classes.foretag}>
       <div className={classes.topImage}>
-        <h1>Terapeutisk Laser</h1>
+        <h1>Behandlingar</h1>
       </div>
       <h1>
         Hur <span>fungerar</span> det?

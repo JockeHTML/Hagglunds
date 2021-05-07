@@ -28,6 +28,7 @@ const Header = () => {
   return (
     <div className={classes.header}>
       <Logo />
+
       <div className={classes.content}>
         <div className={classes.links}>
           <ul>
@@ -42,13 +43,17 @@ const Header = () => {
           </ul>
         </div>
 
-        <ul onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-          <li className={classes.extra}>
+        <ul
+          className={classes.extraLink}
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
+          <li>
             <Link href="/om-oss">Om oss</Link>
             <i className="fas fa-angle-down"></i>
           </li>
 
-          <div className={active ? classes.activeDropdown : null}>
+          <div className={active ? classes.activeDropdown : classes.dropdown}>
             <ul>
               {active
                 ? dropdownData.map((data, index) => {

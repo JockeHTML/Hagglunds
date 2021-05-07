@@ -38,6 +38,9 @@
   .chiropracticText {
     flex-direction: column;
   }
+  .chiropracticText h3 {
+    padding-top: 1rem;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

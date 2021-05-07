@@ -72,9 +72,12 @@
   .hvlaImages div:nth-child(3) {
     padding-top: 2rem;
   }
-
+  .rehabImages div:nth-child(3) {
+    padding-top: 2rem;
+  }
   .content {
     width: 100%;
+    padding: var(--padding4) 1.5rem 2rem 1.5rem;
   }
   .topImage h1 {
     font-size: var(--size8);

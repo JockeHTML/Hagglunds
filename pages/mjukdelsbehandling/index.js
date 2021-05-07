@@ -10,7 +10,7 @@ const index = () => {
   return (
     <div className={classes.foretag}>
       <div className={classes.topImage}>
-        <h1>Mjukdelsbehandling</h1>
+        <h1>Behandlingar</h1>
       </div>
 
       <div className={classes.content}>
